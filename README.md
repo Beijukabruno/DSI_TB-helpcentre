@@ -7,6 +7,7 @@ A comprehensive knowledge base for tuberculosis (TB) information and resources d
 ### 📄 Files
 
 - **[tuberculosis_who_factsheet.md](tuberculosis_who_factsheet.md)** - Comprehensive tuberculosis knowledge base combining global guidelines, clinical practice, research, and patient services
+- **[help_center_components.md](help_center_components.md)** - Enhanced help center features with user journeys, troubleshooting, and quick access functionality
 - **[knowledge_base.txt](knowledge_base.txt)** - Quick reference guide with categorized TB resources and contact information
 - **[CDC_TB_Questions_Answers.pdf](CDC_TB_Questions_Answers.pdf)** - CDC's comprehensive Q&A booklet about tuberculosis (24 pages, PDF format)
 
@@ -56,6 +57,8 @@ This repository serves as a **comprehensive knowledge base for AI-powered TB hel
 - **Patient information portals**
 - **Healthcare worker reference tool**
 - **Community health education platforms**
+- **Multi-language patient support services**
+- **Guided troubleshooting and decision trees**
 
 ## Key Topics Covered
 
@@ -79,6 +82,15 @@ This repository serves as a **comprehensive knowledge base for AI-powered TB hel
 - ✅ Financial and nutritional assistance programs
 - ✅ Community resources and peer support
 - ✅ Practical guidance for accessing care
+
+### 🎯 Help Center Features
+- ✅ Quick search and trending topics
+- ✅ User journey categories (Patients, Healthcare Workers, Caregivers)
+- ✅ Guided troubleshooting decision trees
+- ✅ Multi-language resource information
+- ✅ Community support networks and peer groups
+- ✅ Status dashboard for TB surveillance updates
+- ✅ Enhanced contact support with escalation paths
 
 ### 💻 Digital Health Systems
 - ✅ Electronic surveillance systems

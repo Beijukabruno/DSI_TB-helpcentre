@@ -24,6 +24,14 @@
 - **FEND-TB Adult Protocols**: https://www.fend-tb.org/protocols/adult/
 - **FEND-TB Drug-Resistant Protocols**: https://www.fend-tb.org/protocols/drug-resistant/
 
+### Uganda Ministry of Health TB Resources (Currently Inaccessible - To Monitor)
+- **MOH Manual - National TB and Leprosy Program**: https://library.health.go.ug/communicable-disease/tuberculosis/ministry-health-manual-national-tuberculosis-and-leprosy
+- **Uganda National Guidelines - TB Infection Control**: https://library.health.go.ug/communicable-disease/tuberculosis/uganda-national-guidelines-tuberculosis-infection-control-health
+- **Uganda TB Communication Strategy**: https://library.health.go.ug/file-download/download/public/450
+- **Management of TB in Children - Health Worker Guide**: https://library.health.go.ug/sites/default/files/resources/Management%20of%20TB%20in%20Children_%20A%20Health%20Worker%20Guide.pdf
+- **Treatment of Tuberculosis Guidelines (4th Edition)**: https://library.health.go.ug/communicable-disease/tuberculosis/treatment-tuberculosis-guidelines-fourth-edition
+- **MOH Search Results Reference**: https://share.google/ISsKPGVRdNFLcgBQP
+
 ---
 
 Feasibility of Novel Diagnostics for TB in Endemic countries: https://www.fend-tb.org/protocols/adult/, https://www.fend-tb.org/protocols/drug-resistant/, 

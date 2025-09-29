@@ -1,7 +1,19 @@
 # Tuberculosis (WHO Fact Sheet)
 
-*Source: WHO - https://www.who.int/news-room/fact-sheets/detail/tuberculosis*
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 *Last updated: March 14, 2025*
+
+**📋 Quick Navigation:**
+- [Key Facts](#key-facts) 
+- [Symptoms & Diagnosis](#symptoms-and-diagnosis)
+- [Treatment Information](#treatment-and-medication-information)
+- [Prevention](#prevention)
+- [Find Help](#patient-services--support-uganda-focused)
+
+**🔗 External Resources:**
+- [CDC TB Questions & Answers](https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html)
+- [WHO Global TB Report](https://www.who.int/teams/global-tuberculosis-programme/tb-reports)
+- [Uganda TB Assessment](https://tbassessment.stoptb.org/uganda.html)
 
 ## Key Facts
 
@@ -41,6 +53,8 @@ Certain conditions can increase a person's risk for TB disease:
 
 ## Symptoms
 
+📋 **Need immediate help?** → [Emergency Contacts](https://www.health.go.ug) | **National Health Helpline: 0800 100 066**
+
 People with TB infection don't feel sick and aren't contagious. Only a small proportion of people who get infected with TB will get TB disease and symptoms. Babies and children are at higher risk.
 
 TB disease occurs when bacteria multiply in the body and affect different organs. TB symptoms may be mild for many months, so it is easy to spread TB to others without knowing it. Some people with TB disease do not have any symptoms.
@@ -56,6 +70,8 @@ TB disease occurs when bacteria multiply in the body and affect different organs
 • **Night sweats**
 
 The symptoms people get depend on which part of the body is affected by TB. While TB usually affects the lungs, it can also involve the kidneys, brain, spine and skin.
+
+🔗 **Learn More:** [CDC TB Symptoms Guide](https://www.cdc.gov/tb/communication-resources/tuberculosis-fact-sheet.html) | [WHO Prevention Guidelines](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)
 
 ## Prevention
 
@@ -85,6 +101,8 @@ Diagnosing multidrug-resistant and other resistant forms of TB as well as HIV-as
 
 ## Treatment
 
+🏥 **Need treatment?** → [Find Treatment Centers](#treatment-centers--healthcare-facilities) | **Free TB treatment** available at all public facilities
+
 Tuberculosis disease is treated with special antibiotics. Treatment is recommended for both TB infection and disease.
 
 ### Most common antibiotics used:
@@ -95,6 +113,8 @@ Tuberculosis disease is treated with special antibiotics. Treatment is recommend
 • **Ethambutol**
 
 To be effective, medications need to be taken daily for **4–6 months**. It is dangerous to stop the medications early or without medical advice as it can prompt TB bacteria in the body to become resistant to the drugs.
+
+🔗 **More Info:** [CDC Treatment Guidelines](https://www.cdc.gov/tb/communication-resources/staying-on-track-with-tb-medicine-booklet.html) | [Medication Support](#medication-adherence-support)
 
 TB that doesn't respond to standard drugs is called **drug-resistant TB** and requires treatment with different medicines.
 
@@ -665,6 +685,17 @@ Email: info@health.go.ug
 
 # TB Treatment Centers & Patient Support Services
 
+🚨 **Emergency TB Help:** 999 or 112 | **National Health Helpline:** 0800 100 066 (Free, 24/7)
+
+📋 **Quick Access:**
+- [Treatment Centers](#treatment-centers--healthcare-facilities)
+- [Testing Locations](#testing--diagnostic-services) 
+- [Emergency Contacts](#emergency-contacts--helplines)
+- [Financial Support](#financial-support)
+- [Community Resources](#community-resources)
+
+🔗 **Additional Support:** [Help Center Components](help_center_components.md) | [Complete Resource List](knowledge_base.txt)
+
 ## Where to Get TB Treatment
 
 ### Public Health Facilities
@@ -758,6 +789,7 @@ Available at major hospitals and health centers nationwide:
 - **Phone: +256 417 712 260**
 - **Email: info@health.go.ug**
 - **Address:** Plot 6, Lourdel Road, Nakasero, P.O Box 7272, Kampala
+- **Website:** [Ministry of Health Uganda](https://www.health.go.ug)
 
 #### Regional TB Coordinators
 Contact your district health office for regional coordinator contacts
@@ -766,6 +798,8 @@ Contact your district health office for regional coordinator contacts
 - **National Emergency Number: 999 or 112**
 - **Police: 999**
 - **Fire & Rescue: 999**
+
+🔗 **More Support Options:** [Help Center Components](help_center_components.md#enhanced-contact-support) | [Community Support Networks](help_center_components.md#community-support-network)
 
 ## Patient Support Services
 
@@ -923,5 +957,44 @@ A: Yes, close contacts should be screened for TB. This service is free.
 
 **Q: Is there help with nutrition during treatment?**
 A: Some programs provide nutritional support. Ask your health provider about available options.
+
+---
+
+## 🔗 Complete Resource Links & References
+
+### 📚 **Primary Sources Used**
+- **WHO TB Fact Sheet:** https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+- **WHO Global TB Report:** https://www.who.int/teams/global-tuberculosis-programme/tb-reports
+- **CDC TB Resources:** https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html
+- **CDC Treatment Guidelines:** https://www.cdc.gov/tb/communication-resources/staying-on-track-with-tb-medicine-booklet.html
+- **The Lancet Research:** https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01609-X/fulltext
+- **Uganda TB Assessment:** https://tbassessment.stoptb.org/uganda.html
+
+### 🏥 **Uganda Ministry of Health Resources**
+*Note: Currently monitoring availability status*
+- **National TB & Leprosy Manual:** https://library.health.go.ug/communicable-disease/tuberculosis/ministry-health-manual-national-tuberculosis-and-leprosy
+- **TB Infection Control Guidelines:** https://library.health.go.ug/communicable-disease/tuberculosis/uganda-national-guidelines-tuberculosis-infection-control-health
+- **Pediatric TB Guide:** https://library.health.go.ug/sites/default/files/resources/Management%20of%20TB%20in%20Children_%20A%20Health%20Worker%20Guide.pdf
+- **Treatment Guidelines (4th Ed):** https://library.health.go.ug/communicable-disease/tuberculosis/treatment-tuberculosis-guidelines-fourth-edition
+
+### 🎯 **Additional Help Center Files**
+- **Enhanced Help Center Features:** [help_center_components.md](help_center_components.md)
+- **Quick Reference Guide:** [knowledge_base.txt](knowledge_base.txt)
+- **Repository Documentation:** [README.md](README.md)
+
+### 📞 **Quick Contact Reference**
+- **Emergency:** 999 or 112
+- **National Health Helpline:** 0800 100 066 (Free, 24/7)
+- **TB Program:** +256 417 712 260
+- **Email:** info@health.go.ug
+
+### 🔍 **Research & Technical Resources**
+- **FEND-TB Protocols:** https://www.fend-tb.org/protocols/adult/
+- **Stop TB Partnership:** https://stoptb.org
+- **Google Search Reference:** https://share.google/ISsKPGVRdNFLcgBQP
+
+---
+
+*This comprehensive TB knowledge base integrates information from WHO, CDC, Uganda Ministry of Health, academic research, and patient service directories. All external links have been embedded throughout the document for quick reference and navigation.*
 
 ---
