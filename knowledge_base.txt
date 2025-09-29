@@ -1,3 +1,13 @@
 Feasibility of Novel Diagnostics for TB in Endemic countries: https://www.fend-tb.org/protocols/adult/, https://www.fend-tb.org/protocols/drug-resistant/, 
 
 CDC's : https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html, https://www.cdc.gov/tb/communication-resources/tuberculosis-fact-sheet.html, https://www.cdc.gov/tb/communication-resources/staying-on-track-with-tb-medicine-booklet.html
+
+## PDF Resources (Downloaded)
+
+### CDC TB Questions and Answers Booklet
+- **File**: CDC_TB_Questions_Answers.pdf
+- **Source**: https://www.cdc.gov/tb/media/Question_Answers_About_TB_English.pdf
+- **Description**: Comprehensive Q&A booklet covering TB diagnosis and treatment
+- **Format**: PDF, 24 pages, 10 MB
+- **Language**: English
+- **Last Updated**: Available in multiple languages on CDC website

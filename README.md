@@ -8,6 +8,7 @@ A comprehensive knowledge base for tuberculosis (TB) information and resources.
 
 - **[tuberculosis_who_factsheet.md](tuberculosis_who_factsheet.md)** - Comprehensive tuberculosis fact sheet combining information from WHO and CDC sources
 - **[knowledge_base.txt](knowledge_base.txt)** - Additional TB diagnostic and research resources
+- **[CDC_TB_Questions_Answers.pdf](CDC_TB_Questions_Answers.pdf)** - CDC's comprehensive Q&A booklet about tuberculosis (24 pages, PDF format)
 
 ### 📚 Information Sources
 
