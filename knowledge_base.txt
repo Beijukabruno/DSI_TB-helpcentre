@@ -31,3 +31,35 @@ CDC's : https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-
 - **Status**: Integrated into main tuberculosis_who_factsheet.md file
 - **Key Focus**: Digital health systems, DHIS2 implementation, surveillance infrastructure, resource requirements
 - **Scope**: National TB program digital transformation, case-based surveillance, implementation challenges
+
+## Patient Services & Support Information (Compiled)
+
+### Treatment Centers & Healthcare Facilities
+- **National Referral Hospitals**: Mulago, Butabika, specialized TB services
+- **Regional Referral Hospitals**: 15 locations across Uganda with TB clinics
+- **District Health Centers**: Over 1,700 facilities providing TB services
+- **Private Healthcare**: International Hospital Kampala, Nakasero Hospital, Case Medical Centre
+- **All services**: Free TB treatment at public facilities
+
+### Testing & Diagnostic Services
+- **GeneXpert Testing**: Rapid molecular testing at major hospitals (2-hour results)
+- **TB Skin Testing (TST)**: Available at all health centers, free for high-risk individuals
+- **Chest X-Ray Services**: Regional/district hospitals, mobile units for rural areas
+- **Mobile Testing Units**: Community outreach and workplace screening programs
+
+### Emergency Contacts & Helplines
+- **National Health Helpline**: 0800 100 066 (24/7, toll-free)
+- **National TB Program**: +256 417 712 260, info@health.go.ug
+- **Emergency Services**: 999 or 112
+- **Regional TB Coordinators**: Available through district health offices
+
+### Patient Support Services
+- **Financial Support**: Free treatment, transport vouchers, NGO programs
+- **Nutritional Support**: Supplementary feeding, vitamin supplements, food programs
+- **Counseling Services**: TB counselors, peer support groups, mental health support
+- **Transportation**: Motor bike vouchers, ambulance services, community transport
+
+### Community Resources
+- **Support Organizations**: TASO, UREACH, faith-based organizations
+- **Peer Networks**: TB survivor groups, community health workers, expert clients
+- **Special Programs**: TB-HIV integration, pediatric services, MDR-TB centers

@@ -741,3 +741,274 @@ Email: info@health.go.ug
 - Dr. Robert Majwala (Technical Advisor)
 
 ---
+
+# TB Treatment Centers & Patient Support Services
+
+## Where to Get TB Treatment
+
+### Public Health Facilities
+
+#### National Referral Hospitals
+- **Mulago National Referral Hospital** - Kampala
+  - TB clinic operating daily
+  - Specialized MDR-TB treatment
+  - Contact: +256 414 554 000
+
+- **Butabika National Referral Hospital** - Wakiso
+  - Mental health and TB co-infection management
+  - Contact: +256 414 263 901
+
+#### Regional Referral Hospitals (15 locations)
+All 15 Regional Referral Hospitals in Uganda provide TB diagnosis and treatment services:
+- **Mbarara Regional Referral Hospital** - Western Uganda
+- **Gulu Regional Referral Hospital** - Northern Uganda  
+- **Mbale Regional Referral Hospital** - Eastern Uganda
+- **Fort Portal Regional Referral Hospital** - Western Uganda
+- **Soroti Regional Referral Hospital** - Eastern Uganda
+- **Arua Regional Referral Hospital** - Northern Uganda
+- **Hoima Regional Referral Hospital** - Western Uganda
+- **Kabale Regional Referral Hospital** - Southwestern Uganda
+- **Jinja Regional Referral Hospital** - Eastern Uganda
+- **Lira Regional Referral Hospital** - Northern Uganda
+- **Masaka Regional Referral Hospital** - Central Uganda
+- **Moroto Regional Referral Hospital** - Northeastern Uganda
+- **Mubende Regional Referral Hospital** - Central Uganda
+- **Kitgum Regional Referral Hospital** - Northern Uganda
+- **Entebbe Regional Referral Hospital** - Central Uganda
+
+#### District Health Centers
+**Over 1,700 health facilities** across Uganda provide TB services:
+- Health Center IV (General hospitals at county level)
+- Health Center III (Sub-county level facilities)
+- Health Center II (Parish level facilities)
+- Community health facilities
+
+### Private Healthcare Facilities
+- **International Hospital Kampala (IHK)**
+  - Comprehensive TB diagnosis and treatment
+  - Contact: +256 312 200 400
+
+- **Nakasero Hospital**
+  - Private TB treatment services
+  - Contact: +256 312 531 000
+
+- **Case Medical Centre**
+  - TB testing and treatment
+  - Contact: +256 414 258 001
+
+## TB Testing & Screening Locations
+
+### Free TB Testing Centers
+
+#### GeneXpert Testing Sites
+Available at major hospitals and health centers nationwide:
+- **Rapid molecular testing** (results in 2 hours)
+- **Drug resistance detection**
+- **No cost for patients**
+
+#### Mobile Testing Units
+- **Community outreach programs**
+- **High-risk area screening**
+- **Workplace screening programs**
+- **Contact through district health offices**
+
+#### TB Skin Testing (TST)
+- Available at all health centers
+- Free of charge for high-risk individuals
+- Contact your nearest health facility
+
+### Chest X-Ray Services
+**Available at:**
+- All regional and district hospitals
+- Many Health Center IVs
+- Private clinics and hospitals
+- Mobile X-ray units in rural areas
+
+## Emergency TB Contacts & Hotlines
+
+### National Health Information Helpline
+- **Toll-Free Number: 0800 100 066**
+- **Available 24/7**
+- **Services:** Health information, facility locations, emergency referrals
+
+### TB Program Contacts
+
+#### National TB Program Headquarters
+- **Phone: +256 417 712 260**
+- **Email: info@health.go.ug**
+- **Address:** Plot 6, Lourdel Road, Nakasero, P.O Box 7272, Kampala
+
+#### Regional TB Coordinators
+Contact your district health office for regional coordinator contacts
+
+### Emergency Services
+- **National Emergency Number: 999 or 112**
+- **Police: 999**
+- **Fire & Rescue: 999**
+
+## Patient Support Services
+
+### Financial Support
+
+#### Government Programs
+- **Free TB treatment** at all public health facilities
+- **Free diagnostic tests** (sputum, GeneXpert, chest X-ray)
+- **Free hospitalization** when required
+- **Transport vouchers** for some regions
+
+#### NGO Support Programs
+- **The AIDS Support Organization (TASO)**
+  - TB-HIV co-infection support
+  - Contact: +256 414 532 580
+
+- **Uganda Reach the Affected (UREACH)**
+  - Community TB support
+  - Patient counseling and adherence support
+
+### Nutritional Support
+
+#### Nutrition Programs
+- **Supplementary feeding** for TB patients
+- **Vitamin B6 supplements** for isoniazid users
+- **Nutritional counseling** available at health facilities
+
+#### Food Support Organizations
+- **World Food Programme (WFP)** partnerships
+- **Local community support groups**
+- **Faith-based organization programs**
+
+### Counseling & Mental Health Support
+
+#### Psychological Support
+- **TB counselors** available at major hospitals
+- **Peer support groups** in communities
+- **Family counseling services**
+
+#### Mental Health Services
+- **Butabika National Referral Hospital** - specialized care
+- **Community mental health workers**
+- **District mental health coordinators**
+
+### Transportation Support
+
+#### Transport Assistance
+- **Motor bike taxi vouchers** in some districts
+- **Ambulance services** for emergencies
+- **Community transport cooperatives**
+
+## Community Resources
+
+### Community-Based Organizations
+
+#### TB Support Groups
+- **Local TB survivor groups** in major towns
+- **Community health worker networks**
+- **Village health teams (VHTs)**
+
+#### Faith-Based Organizations
+- **Uganda Protestant Medical Bureau (UPMB)**
+- **Uganda Catholic Medical Bureau (UCMB)**
+- **Islamic Medical Association of Uganda (IMAU)**
+
+### Peer Support Networks
+
+#### Patient Networks
+- **TB Champions** program
+- **Expert clients** in health facilities
+- **Community health educators**
+
+### School & Workplace Programs
+
+#### Educational Institution Support
+- **School health programs**
+- **University health centers**
+- **Student counseling services**
+
+#### Workplace Health
+- **Occupational health services**
+- **Company health programs**
+- **Industrial clinic partnerships**
+
+## Special Population Services
+
+### TB-HIV Co-infection Services
+- **Integrated HIV-TB clinics** at all major hospitals
+- **Combined treatment monitoring**
+- **Specialized counseling services**
+
+### Pediatric TB Services
+- **Children's hospitals**
+- **Pediatric wards** at regional hospitals
+- **Child-friendly treatment options**
+
+### Pregnant Women
+- **Antenatal clinic TB screening**
+- **Safe TB treatment during pregnancy**
+- **Specialized maternal health services**
+
+### Drug-Resistant TB Services
+- **Specialized MDR-TB centers**
+- **Extended treatment programs**
+- **Enhanced monitoring services**
+
+## How to Access Services
+
+### Step-by-Step Guide
+
+1. **If you have TB symptoms:**
+   - Visit your nearest health facility
+   - Request TB screening
+   - Provide sputum sample if requested
+
+2. **If diagnosed with TB:**
+   - Start treatment immediately
+   - Attend all follow-up appointments
+   - Take medications as prescribed
+
+3. **For support services:**
+   - Ask health worker about available programs
+   - Contact community organizations
+   - Join peer support groups
+
+### What to Bring
+- **National ID or other identification**
+- **Previous medical records** (if any)
+- **List of current medications**
+- **Contact information** for family/emergency contact
+
+## Frequently Asked Questions
+
+### Treatment Access
+
+**Q: Is TB treatment free in Uganda?**
+A: Yes, TB diagnosis and treatment are provided free of charge at all public health facilities.
+
+**Q: Can I get treated at private facilities?**
+A: Yes, private facilities also provide TB treatment, though costs may apply.
+
+**Q: What if I can't afford transport to the clinic?**
+A: Some districts provide transport vouchers. Ask your health facility about available support.
+
+### Treatment Process
+
+**Q: How long does TB treatment take?**
+A: Standard TB treatment takes 6 months. Drug-resistant TB may take 18-24 months.
+
+**Q: Can I work while on TB treatment?**
+A: Yes, most people can continue working after the first 2-3 weeks of treatment.
+
+**Q: What if I miss doses?**
+A: Contact your health provider immediately. Do not stop treatment without medical advice.
+
+### Support Services
+
+**Q: Are there support groups for TB patients?**
+A: Yes, many communities have TB support groups. Ask at your health facility.
+
+**Q: Can my family get tested?**
+A: Yes, close contacts should be screened for TB. This service is free.
+
+**Q: Is there help with nutrition during treatment?**
+A: Some programs provide nutritional support. Ask your health provider about available options.
+
+---
