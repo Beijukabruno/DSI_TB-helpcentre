@@ -998,3 +998,21 @@ A: Some programs provide nutritional support. Ask your health provider about ava
 *This comprehensive TB knowledge base integrates information from WHO, CDC, Uganda Ministry of Health, academic research, and patient service directories. All external links have been embedded throughout the document for quick reference and navigation.*
 
 ---
+
+## DSI MDR System Login & Password Reset Guide
+
+### How to Log In
+- Go to the login page: [https://dsi-mdr.emergentai.ug/auth](https://dsi-mdr.emergentai.ug/auth)
+- Enter your **username** and **password**
+- Click **Login** to access your account
+
+### Forgot Your Password?
+- Go to the password reset page: [https://dsi-mdr.emergentai.ug/auth/forgot-password](https://dsi-mdr.emergentai.ug/auth/forgot-password)
+- Enter your **email address**
+- Click **Send Instructions**
+- Check your email inbox for a message with password reset instructions
+- Follow the link in the email to set a new password
+
+**Tip:** Make sure you have access to the email address associated with your account. If you do not receive the reset email, check your spam folder or contact your system administrator for help.
+
+---
