@@ -339,23 +339,13 @@ Most healthy people will not need to be treated for TB ever again. However, if y
 
 **Connect with other TB survivors:**
 • [We are TB](https://www.wearetb.com/) - Community of TB survivors and their families
-• [Somos TB](https://www.wearetb.com/somostb) - For Spanish-speakers
 • [CDC Tuberculosis Personal Stories](https://www.cdc.gov/tb/stories/index.html)
-
-### Financial Assistance
-
-Public and private health care plans may cover the costs of treatment for inactive TB or active TB disease.
 
 ## CDC Resources for Patients
 
 • [Staying on Track with Tuberculosis Medicine Booklet](https://www.cdc.gov/tb/communication-resources/staying-on-track-with-tb-medicine-booklet.html)
 • [What You Need to Know About Tuberculosis Fact Sheet](https://www.cdc.gov/tb/communication-resources/tuberculosis-fact-sheet.html)
 • [Questions and Answers About Tuberculosis Booklet](https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html)
-
-### Medication Trackers:
-• [3HP Regimen Tracker](https://www.cdc.gov/tb/communication-resources/3hp-medication-tracker.html) - Three months of once-weekly isoniazid plus rifapentine
-• [4R Regimen Tracker](https://www.cdc.gov/tb/communication-resources/4r-medication-tracker.html) - Four months of daily rifampin  
-• [3HR Regimen Tracker](https://www.cdc.gov/tb/communication-resources/3hr-medication-tracker.html) - Three months of daily isoniazid plus rifampin
 
 ---
 
@@ -647,75 +637,6 @@ This correspondence highlights the critical role of poverty as a driver of poor 
 
 • **Current HR availability** at facilities insufficient
 
-### Technical Challenges
-
-• **Interoperability issues**: Unable to generate data from GeneXpert system due to high integration costs
-
-• **Legacy data migration**: Scale-up would create significant data entry backlogs
-
-• **GxAlerts utilization** not at par due to integration costs
-
-## Resource Requirements (3-Year Plan)
-
-### Hardware and Infrastructure: ~$840,000
-
-• **Mobile devices**: $255,000 (1,700 devices @ $150 each)
-• **Tablets**: $30,000 (150 devices @ $200 each)  
-• **Internet connectivity**: $555,000 ($100/year per facility/district/region)
-
-### Software Development: $500,000-750,000
-
-• Comprehensive TB surveillance system
-• Enhanced analytical dashboard
-• Integration capabilities
-
-### Capacity Building: $493,500-693,500
-
-• **Technical team**: $360,000-540,000 (4-6 skilled resources for 3 years)
-• **Training**: $13,500 for 135 districts
-• **IT team reskilling**: Additional budget needed
-
-**TOTAL INVESTMENT**: **$2.5-3.0 million for 3 years**
-
-## Strategic Recommendations
-
-### Immediate Actions (0-6 months)
-
-1. **Strategic costing plan** development
-2. **Device procurement** for data collection  
-3. **Capacity building** for system administration
-4. **E-learning modules** development
-
-### Medium-term Implementation (6-18 months)
-
-1. **Scale-up DHIS2 tracker** to 800+ facilities
-2. **Mobile app enhancement** for offline data collection
-3. **System integration** with GeneXpert, TrueNaat, digital X-ray
-4. **Advanced analytics dashboard** development
-
-### Long-term Vision (12-24 months)
-
-1. **Complete national scale-up** to 1,700 facilities
-2. **Patient interactive systems** for follow-up
-3. **Contact tracing application** implementation
-4. **Real-time data access** for all stakeholders
-
-## Digital Tools Ecosystem
-
-### Current Complementary Tools
-
-• **Video DOTS**: ZMQ platform (pilot)
-• **99 DOTS**: Mobile app by Everwell (pilot)
-• **GeneXpert**: Web application by Cepheid (national)
-• **Toll-free call center**: Ministry of Health (national)
-• **DHIS2 tracker**: Mobile application by HISP Uganda (pilot)
-
-## Private Sector Integration
-
-• **Private partners enrolled** under NTP align with electronic aggregated TB data notification
-• **Private providers outside NTP** use manual notification process
-• **Data submitted** to sub-district level for digital entry
-
 ## National TB Program Vision
 
 ### Strategic Objectives (NSP 2020/21-2024/25)
@@ -851,10 +772,9 @@ Contact your district health office for regional coordinator contacts
 ### Financial Support
 
 #### Government Programs
-- **Free TB treatment** at all public health facilities
-- **Free diagnostic tests** (sputum, GeneXpert, chest X-ray)
-- **Free hospitalization** when required
-- **Transport vouchers** for some regions
+- **TB treatment** at all public health facilities
+- **diagnostic tests** (sputum, GeneXpert, chest X-ray)
+- **hospitalization** when required
 
 #### NGO Support Programs
 - **The AIDS Support Organization (TASO)**
@@ -888,13 +808,6 @@ Contact your district health office for regional coordinator contacts
 - **Butabika National Referral Hospital** - specialized care
 - **Community mental health workers**
 - **District mental health coordinators**
-
-### Transportation Support
-
-#### Transport Assistance
-- **Motor bike taxi vouchers** in some districts
-- **Ambulance services** for emergencies
-- **Community transport cooperatives**
 
 ## Community Resources
 
