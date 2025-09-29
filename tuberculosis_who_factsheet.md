@@ -358,3 +358,135 @@ Public and private health care plans may cover the costs of treatment for inacti
 • [3HR Regimen Tracker](https://www.cdc.gov/tb/communication-resources/3hr-medication-tracker.html) - Three months of daily isoniazid plus rifampin
 
 ---
+
+# HIV and Tuberculosis in Uganda: Are We Neglecting Poverty?
+
+*Source: The Lancet - https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01609-X/fulltext*  
+*Volume 404, Issue 10455, P844-845, August 31, 2024*  
+*Type: Correspondence*
+
+## Authors
+
+- **Samuel Kizito** (kizito.s@wustl.edu) - Washington University, USA & Makerere University Johns Hopkins University Research Collaboration, Uganda
+- **Josephine Nabayinda** - Makerere University Johns Hopkins University Research Collaboration, Uganda  
+- **Proscovia Nabunyab** - Makerere University Johns Hopkins University Research Collaboration, Uganda
+- **Fred M Ssewamala** - Washington University, USA
+
+## Key Points
+
+### TB-HIV Burden in Uganda
+
+• **Tuberculosis is the leading cause of death** among people living with HIV, responsible for over one-third of all HIV-related deaths worldwide
+
+• **Uganda is one of the 30 high-burden tuberculosis–HIV countries** in the world, with an annual tuberculosis incidence ranging between **200-350 cases per 100,000 people**
+
+• **TB-HIV co-infection rate: 40%** - HIV is the biggest driver of tuberculosis in Uganda
+
+• **Treatment completion crisis**: Up to half (10-50%) of all patients with tuberculosis in high-burden countries, including Uganda, do not complete treatment
+
+• **Poor treatment outcomes**: Treatment success rate for TB-HIV co-infected patients is only **70%**
+
+### Treatment Challenges
+
+**Patient Loss Statistics:**
+- **13% of tuberculosis patients** are lost to follow-up
+- **20% of patients** diagnosed with tuberculosis do not initiate treatment
+- **Adherence gap**: TB medication adherence lags behind antiretroviral therapy adherence, even within the same patient
+
+**Contributing Factors:**
+- Prolonged infectivity
+- Drug resistance development
+- Disease relapse
+- Prolonged morbidity
+- Preventable deaths
+
+## The Poverty Factor
+
+### Financial Impact on Households
+
+**Catastrophic Healthcare Expenditure:**
+- **53.1% of TB patient households** in Uganda face catastrophic expenditure
+- Patients spend **20-40% of household income** on tuberculosis care
+- **Average cost**: US$369 per episode for drug-sensitive tuberculosis treatment
+- **Higher costs for TB-HIV co-infected patients** due to simultaneous HIV-associated costs
+
+### Access Barriers
+
+**Geographic and Economic Challenges:**
+- Many health facilities do not offer tuberculosis treatment services
+- Patients incur **high transport costs** to access distant clinics
+- Only **3.9% of TB patients** receive social protection support for financial constraints
+
+## Research Gap and Call to Action
+
+### Current Research Limitations
+
+**Poverty under-prioritized:**
+- Very few studies test interventions that target household poverty in patients with HIV and tuberculosis
+- Limited focus on social determinants of health in TB-HIV research
+
+### Policy Alignment
+
+**WHO Global Plan Consistency:**
+- Addressing household poverty aligns with WHO global plan to **end tuberculosis as a public health challenge by 2030**
+
+**Uganda's National Strategic Goals:**
+- Achieve **more than 90% tuberculosis treatment success**
+- Ensure **no patient with tuberculosis and their household experience catastrophic costs** due to tuberculosis
+
+### Research Recommendation
+
+**Call for Action:**
+The authors call on **HIV-tuberculosis researchers to prioritize addressing poverty** as a key intervention target in research studies.
+
+## Clinical Implications
+
+### Treatment Success Factors
+
+**Beyond Medical Treatment:**
+- Medical interventions alone insufficient for optimal outcomes
+- **Social determinants** (especially poverty) must be addressed
+- Need for **integrated approaches** combining medical and socioeconomic interventions
+
+### Policy Considerations
+
+**Healthcare System Improvements Needed:**
+- Expand tuberculosis treatment services to more health facilities
+- Implement comprehensive social protection programs
+- Address geographic accessibility barriers
+- Develop poverty-targeted interventions
+
+## Global Context
+
+### High-Burden Countries
+
+**Similar Challenges Worldwide:**
+- Uganda's experience likely representative of other high TB-HIV burden countries
+- **Social determinants approach** needed globally
+- Importance of addressing **structural factors** affecting treatment outcomes
+
+### Research Priorities
+
+**Future Study Directions:**
+- Poverty-targeted interventions in TB-HIV research
+- Household economic support programs
+- Transportation assistance programs
+- Integrated social protection schemes
+
+## Conclusion
+
+This correspondence highlights the critical role of poverty as a driver of poor HIV and tuberculosis treatment outcomes in Uganda. The authors emphasize that despite medical advances, **social determinants of health—particularly poverty—remain inadequately addressed** in TB-HIV research and interventions.
+
+**Key Message:** Achieving the WHO goal of ending tuberculosis by 2030 requires research and interventions that go beyond medical treatment to address the underlying social and economic factors that perpetuate poor treatment outcomes.
+
+---
+
+**Conflict of Interest:** Authors declare no competing interests.
+
+**Reference Information:**
+- DOI: 10.1016/S0140-6736(24)01609-X
+- Article Type: Correspondence
+- Publication Date: August 31, 2024
+- Journal: The Lancet, Volume 404, Issue 10455, Pages 844-845
+
+---

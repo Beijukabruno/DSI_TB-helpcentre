@@ -6,7 +6,7 @@ A comprehensive knowledge base for tuberculosis (TB) information and resources.
 
 ### 📄 Files
 
-- **[tuberculosis_who_factsheet.md](tuberculosis_who_factsheet.md)** - Comprehensive tuberculosis fact sheet combining information from WHO and CDC sources
+- **[tuberculosis_who_factsheet.md](tuberculosis_who_factsheet.md)** - Comprehensive tuberculosis fact sheet combining information from WHO, CDC, and academic research sources
 - **[knowledge_base.txt](knowledge_base.txt)** - Additional TB diagnostic and research resources
 - **[CDC_TB_Questions_Answers.pdf](CDC_TB_Questions_Answers.pdf)** - CDC's comprehensive Q&A booklet about tuberculosis (24 pages, PDF format)
 
@@ -23,6 +23,13 @@ A comprehensive knowledge base for tuberculosis (TB) information and resources.
 - Detailed treatment guidelines
 - Medication information and side effects
 - Patient support resources
+- Special considerations for different populations
+
+#### Academic Research (The Lancet)
+- Social determinants of health in TB-HIV care
+- Poverty as a barrier to treatment success
+- Case study from Uganda's TB-HIV program
+- Research gaps and policy recommendations
 - Special considerations for different populations
 
 ## Repository Purpose

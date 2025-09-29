@@ -11,3 +11,14 @@ CDC's : https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-
 - **Format**: PDF, 24 pages, 10 MB
 - **Language**: English
 - **Last Updated**: Available in multiple languages on CDC website
+
+## Academic Research Articles (Integrated)
+
+### The Lancet - HIV and TB in Uganda: Poverty Focus
+- **Title**: HIV and tuberculosis in Uganda: are we neglecting poverty?
+- **Source**: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01609-X/fulltext
+- **Authors**: Kizito S, Nabayinda J, Nabunyab P, Ssewamala FM
+- **Publication**: The Lancet, Vol 404, Issue 10455, P844-845, August 31, 2024
+- **Type**: Correspondence
+- **Status**: Integrated into main tuberculosis_who_factsheet.md file
+- **Key Focus**: Social determinants of health, poverty as barrier to TB-HIV treatment success
