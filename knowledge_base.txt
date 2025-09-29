@@ -22,3 +22,12 @@ CDC's : https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-
 - **Type**: Correspondence
 - **Status**: Integrated into main tuberculosis_who_factsheet.md file
 - **Key Focus**: Social determinants of health, poverty as barrier to TB-HIV treatment success
+
+### Stop TB Partnership - Uganda Digital TB Surveillance Assessment
+- **Title**: Uganda TB Digital Surveillance System Assessment
+- **Source**: https://tbassessment.stoptb.org/uganda.html
+- **Organization**: Stop TB Partnership Digital TB Surveillance Assessment
+- **Type**: Country Assessment Report
+- **Status**: Integrated into main tuberculosis_who_factsheet.md file
+- **Key Focus**: Digital health systems, DHIS2 implementation, surveillance infrastructure, resource requirements
+- **Scope**: National TB program digital transformation, case-based surveillance, implementation challenges

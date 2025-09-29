@@ -30,6 +30,13 @@ A comprehensive knowledge base for tuberculosis (TB) information and resources.
 - Poverty as a barrier to treatment success
 - Case study from Uganda's TB-HIV program
 - Research gaps and policy recommendations
+
+#### Digital Health Systems Assessment (Stop TB Partnership)
+- Uganda's digital TB surveillance system evaluation
+- DHIS2 implementation and challenges
+- Resource requirements for national scale-up
+- Best practices for case-based TB surveillance
+- Integration with health information systems
 - Special considerations for different populations
 
 ## Repository Purpose

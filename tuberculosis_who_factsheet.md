@@ -490,3 +490,254 @@ This correspondence highlights the critical role of poverty as a driver of poor 
 - Journal: The Lancet, Volume 404, Issue 10455, Pages 844-845
 
 ---
+
+# Uganda TB Digital Surveillance System Assessment
+
+*Source: Stop TB Partnership - https://tbassessment.stoptb.org/uganda.html*  
+*TB Assessment Digital Surveillance Report*
+
+## Background
+
+### TB Burden in Uganda (2020)
+
+• **90,000 people** newly developed TB in Uganda in 2020, of which **62,526 got notified** (Global TB report, 2021)
+
+• **Nearly 30,000** of all people with TB also infected with HIV
+
+• **Uganda is included in the list for the top 30 TB/HIV high burden countries**
+
+• **Children account for nearly 12%** of all cases, and many also suffer from TB-HIV coinfection
+
+• **Treatment coverage**: 68% of all people living with TB in 2020
+
+• **TB case fatality rate**: 19%
+
+• **34% of children** (aged < 5 years) that are household contacts of bacteriologically-confirmed TB cases have been put on preventive treatment
+
+### TB Notification Trends (2019-2021)
+
+**COVID-19 Impact:**
+- Country's TB case notification dropped in 2020 due to COVID-19 pandemic
+- In 2021, health system efforts to revive TB surveillance practices improved notification to reach above 2019 average quarterly trends
+- 2019 average: ~17,000 cases per quarter
+- 2020: Dropped to 13,000 in Q2, recovered to 16,000-17,000 in Q3-Q4  
+- 2021: Improved to 18,000-19,000 cases per quarter
+
+## National Strategic Plan (NSP) 2021-25 Goals
+
+### Key Targets
+
+• **Reduce TB incidence by 20%**
+
+• **Focus Areas:**
+  - Strengthening community systems for high-risk populations
+  - Scaling-up TB preventive therapy (TPT)
+  - Enhancing public-private collaboration
+  - Adoption of new technologies
+  - Supporting digital information management
+  - Multi-sectoral collaboration and resource mobilization
+
+## Digital TB Surveillance System Status
+
+### Current System: DHIS2-Based Platform
+
+**System Overview:**
+- **DHIS2 aggregate data model** based national TB surveillance system
+- Supported by **Global Fund, CDC, PEPFAR, and WHO**
+- Built as component of National HMIS platform
+- **HISP Uganda** and **WHO HQ** provide technical guidance
+
+### Implementation Scale
+
+**Electronic Case-Based Surveillance System (eCBSS):**
+- **100 facilities** currently using DHIS2 tracker (case-based reporting)
+- **All 15 Regional Referral Hospitals (RRHs)** included in pilot
+- **Remaining 1,600 facilities** use aggregated data reporting
+- **Target**: Scale up to all **1,700 health facilities** by 2023
+
+### System Features
+
+**Data Collection Methods:**
+- **Case-based data**: 100 pilot facilities using eCBSS
+- **Aggregated data**: Weekly to quarterly reporting from remaining facilities
+- **Real-time data collection** at pilot sites
+- **Offline capability** using DHIS2 Android capture app
+
+**Notification Changes (2020):**
+- **Before 2020**: Patients notified upon treatment start using National Identification Number (NIN)
+- **From 2020**: Patients notifiable at time of diagnosis
+- **Improved tracking**: Location of diagnosis identified and shared in aggregated format
+
+## Digital Infrastructure Assessment
+
+### Technology Penetration (2020-2021)
+
+• **Mobile penetration**: 168.5% of population has cell phone
+• **Smartphone usage**: 91.2% use smartphones (2019)  
+• **Internet penetration**: 64% decent coverage nationally
+
+### System Architecture
+
+**Facility-Level Distribution:**
+- **National Level**: Data visualization via DHIS2 Dashboard
+- **Regional Level**: 15 RRHs using DHIS2 Tracker (case-based)
+- **Districts**: 148 districts using DHIS2 (aggregated)
+- **Facility Level**: 1,700 total (100 eCBSS, 1,600 paper-based/aggregated)
+- **Community Level**: 15 pilot sites using DHIS2 Android app for contact tracing
+
+## Data Collection Capabilities
+
+### Case-Based Data Elements
+
+**Demographics:**
+- Age, date of birth, gender
+- Address and contact details  
+- GPS coordinates of household
+- Phone/mobile number, WhatsApp, email
+
+**Clinical Information:**
+- Health facility details and type
+- Site of TB (pulmonary, extra-pulmonary)
+- Type of diagnostic test (microscopy, GeneXpert, TrueNaat, CXR)
+- Date of test result
+- Drug susceptibility (DS-TB, DR-TB)
+- Treatment regimen and dates
+- Co-morbidities (HIV, diabetes, COVID-19)
+
+**Monitoring Data:**
+- Treatment adherence
+- Treatment outcomes
+- Contact tracing information
+
+## Implementation Timeline
+
+### Milestones Achieved
+
+**2017**: DHIS2 tracker pilot (17 facilities for DR-TB)
+**2018**: Transition from paper-based to electronic system (quarterly aggregated reporting)
+**2019-20**: Development of weekly aggregated DHIS2 dataset, DR and DS TB tracker (17 facilities)
+**2020**: Scale-up of weekly aggregate reporting to all health facilities
+**2021**: Expansion of DHIS2 tracker to 100 facilities for both DS and DR TB
+
+### Future Roadmap
+
+**2022**: 
+- Interoperability with other programs
+- Automatic notification and alerts
+- Scale DHIS2 tracker to 800 facilities
+
+**2023**: 
+- Scale up to all 1,700 facilities
+
+## Key Challenges
+
+### Infrastructure Limitations
+
+• **Digital infrastructure inadequate** at sub-national level and facilities for scale-up beyond current 100 facilities
+
+• **Funding shortage** for infrastructure expansion
+
+• **Internet unreliability** affects data entry and analysis even at pilot facilities
+
+### Human Resources
+
+• **Training manpower shortage** for expanding to 1,700 facilities
+
+• **Data entry burden increase** requires training of health professionals
+
+• **Current HR availability** at facilities insufficient
+
+### Technical Challenges
+
+• **Interoperability issues**: Unable to generate data from GeneXpert system due to high integration costs
+
+• **Legacy data migration**: Scale-up would create significant data entry backlogs
+
+• **GxAlerts utilization** not at par due to integration costs
+
+## Resource Requirements (3-Year Plan)
+
+### Hardware and Infrastructure: ~$840,000
+
+• **Mobile devices**: $255,000 (1,700 devices @ $150 each)
+• **Tablets**: $30,000 (150 devices @ $200 each)  
+• **Internet connectivity**: $555,000 ($100/year per facility/district/region)
+
+### Software Development: $500,000-750,000
+
+• Comprehensive TB surveillance system
+• Enhanced analytical dashboard
+• Integration capabilities
+
+### Capacity Building: $493,500-693,500
+
+• **Technical team**: $360,000-540,000 (4-6 skilled resources for 3 years)
+• **Training**: $13,500 for 135 districts
+• **IT team reskilling**: Additional budget needed
+
+**TOTAL INVESTMENT**: **$2.5-3.0 million for 3 years**
+
+## Strategic Recommendations
+
+### Immediate Actions (0-6 months)
+
+1. **Strategic costing plan** development
+2. **Device procurement** for data collection  
+3. **Capacity building** for system administration
+4. **E-learning modules** development
+
+### Medium-term Implementation (6-18 months)
+
+1. **Scale-up DHIS2 tracker** to 800+ facilities
+2. **Mobile app enhancement** for offline data collection
+3. **System integration** with GeneXpert, TrueNaat, digital X-ray
+4. **Advanced analytics dashboard** development
+
+### Long-term Vision (12-24 months)
+
+1. **Complete national scale-up** to 1,700 facilities
+2. **Patient interactive systems** for follow-up
+3. **Contact tracing application** implementation
+4. **Real-time data access** for all stakeholders
+
+## Digital Tools Ecosystem
+
+### Current Complementary Tools
+
+• **Video DOTS**: ZMQ platform (pilot)
+• **99 DOTS**: Mobile app by Everwell (pilot)
+• **GeneXpert**: Web application by Cepheid (national)
+• **Toll-free call center**: Ministry of Health (national)
+• **DHIS2 tracker**: Mobile application by HISP Uganda (pilot)
+
+## Private Sector Integration
+
+• **Private partners enrolled** under NTP align with electronic aggregated TB data notification
+• **Private providers outside NTP** use manual notification process
+• **Data submitted** to sub-district level for digital entry
+
+## National TB Program Vision
+
+### Strategic Objectives (NSP 2020/21-2024/25)
+
+• **Point-of-care data collection** enabling real-time actionable information management
+
+• **National scale-up** of eCBSS to all 1,700 health facilities
+
+• **Real-time data access** for stakeholders
+
+• **Infrastructure investment**, training programs, and political commitment required
+
+## Contact Information
+
+**National Tuberculosis and Leprosy Control Division**  
+Plot 6, Lourdel Road, Nakasero  
+P.O Box 7272, Kampala, Uganda  
+Telephone: +256 417 712260  
+Email: info@health.go.ug
+
+**Program Leadership:**
+- Dr. Stavia Turyahabwe (National TB Program Manager)
+- Dr. Robert Majwala (Technical Advisor)
+
+---
