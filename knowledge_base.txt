@@ -1,3 +1,31 @@
+# TB Knowledge Base - Source Links and Resources
+
+## Primary Source URLs Used to Create Knowledge Base
+
+### World Health Organization (WHO)
+- **WHO TB Factsheet**: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+- **WHO Global TB Report**: https://www.who.int/teams/global-tuberculosis-programme/tb-reports
+- **WHO TB Prevention**: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+
+### Centers for Disease Control and Prevention (CDC)
+- **CDC TB Questions & Answers**: https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html
+- **CDC TB Factsheet**: https://www.cdc.gov/tb/communication-resources/tuberculosis-fact-sheet.html
+- **CDC TB Medicine Booklet**: https://www.cdc.gov/tb/communication-resources/staying-on-track-with-tb-medicine-booklet.html
+- **CDC TB Questions Answers PDF**: https://www.cdc.gov/tb/media/Question_Answers_About_TB_English.pdf
+
+### Academic Research - The Lancet
+- **HIV and TB in Uganda - Poverty Focus**: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01609-X/fulltext
+
+### Digital Health Systems Assessment
+- **Uganda TB Digital Surveillance Assessment**: https://tbassessment.stoptb.org/uganda.html
+- **Stop TB Partnership**: https://stoptb.org
+
+### Additional TB Research Resources
+- **FEND-TB Adult Protocols**: https://www.fend-tb.org/protocols/adult/
+- **FEND-TB Drug-Resistant Protocols**: https://www.fend-tb.org/protocols/drug-resistant/
+
+---
+
 Feasibility of Novel Diagnostics for TB in Endemic countries: https://www.fend-tb.org/protocols/adult/, https://www.fend-tb.org/protocols/drug-resistant/, 
 
 CDC's : https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html, https://www.cdc.gov/tb/communication-resources/tuberculosis-fact-sheet.html, https://www.cdc.gov/tb/communication-resources/staying-on-track-with-tb-medicine-booklet.html
