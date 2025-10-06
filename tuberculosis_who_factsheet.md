@@ -237,6 +237,18 @@ Even though you may not feel sick, inactive TB can develop into active TB diseas
 
 TB germs are strong, and it can take a long time for them to die. It is important to take and finish all TB medicines exactly as your health care provider recommends.
 
+### The Difference Between Inactive TB and Active TB Disease
+*Source: [CDC - What You Need to Know About TB PDF](https://www.cdc.gov/tb/media/pdfs/What_You_Need_to_Know_About_TB.pdf)*
+
+| **A Person With Inactive TB** | **A Person With Active TB Disease** |
+|--------------------------------|--------------------------------------|
+| • Has a small amount of TB germs in their body that are alive but inactive | • Has a large amount of active TB germs in their body |
+| • Has no symptoms and does not feel sick | • Has symptoms and feels sick |
+| • Cannot spread TB germs to others | • May spread TB germs to others |
+| • Usually has a positive TB blood test or TB skin test indicating TB infection | • Usually has a positive TB blood test or TB skin test indicating TB infection |
+| • Has a normal chest x-ray and a negative sputum smear | • May have an abnormal chest x-ray, or positive sputum smear or culture |
+| • Needs treatment for inactive TB to prevent active TB disease | • Needs treatment for active TB disease |
+
 ## Treatment Options
 *Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
@@ -294,7 +306,7 @@ Tell your health care provider if you are or think you may be pregnant, or are b
 Drinking alcoholic beverages while taking medicines for inactive TB or active TB disease can be dangerous and may hurt your liver.
 
 ## Side Effects
-*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html) and [CDC Staying on Track with TB Medicine PDF](https://www.cdc.gov/tb/media/Staying_on_Track_with_TB_Medicine.pdf)*
 
 Most people can take their TB medicines without any problems. However, like all medicines, TB medicines can have side effects. People react differently to medicines.
 
@@ -314,6 +326,27 @@ Most people can take their TB medicines without any problems. However, like all 
 • **Loss of appetite**
 • **Flu-like symptoms**
 • **Tingling or numbness in hands or feet**
+
+### Important Side Effects for INH (Isoniazid) or INH and RPT
+*Source: [CDC Staying on Track with TB Medicine PDF](https://www.cdc.gov/tb/media/Staying_on_Track_with_TB_Medicine.pdf)*
+
+**Tell your doctor right away if you have any of these symptoms:**
+
+• **Dizziness** when sitting, standing or lying down
+• **Less appetite, or no appetite** for food
+• **Stomach upset, nausea, or vomiting**
+• **Pain in your lower chest** or heartburn
+• **Flu-like symptoms** with or without fever
+• **Severe tiredness or weakness**
+• **Fevers or chills**
+• **Severe diarrhea** or light colored stools (poop)
+• **Brown, tea-colored, or cola-colored urine**
+• **Skin or whites of your eyes appear yellow**
+• **Skin rash or itching**
+• **Bruises, or red and purple spots** on your skin that you cannot explain
+• **Nosebleeds, or bleeding** from your gums or around your teeth
+• **Shortness of breath**
+• **Pain or tingling** in your hands, arms and legs
 
 *Note: If taking isoniazid, your provider may add vitamin B6 to prevent tingling/numbness.*
 
