@@ -17,6 +17,7 @@
 - [Uganda TB Assessment](https://tbassessment.stoptb.org/uganda.html)
 
 ## Key Facts
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 • A total of **1.25 million people died** from tuberculosis (TB) in 2023 (including 161,000 people with HIV). Worldwide, TB has probably returned to being the world's leading cause of death from a single infectious agent, following three years in which it was replaced by coronavirus disease (COVID-19).
 
@@ -31,6 +32,7 @@
 • Ending the TB epidemic by 2030 is among the health targets of the United Nations Sustainable Development Goals (SDGs).
 
 ## Overview
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 Tuberculosis (TB) is an infectious disease caused by bacteria that most often affects the lungs. It spreads through the air when people with TB cough, sneeze or spit.
 
@@ -43,6 +45,7 @@ Those who are infected but free of disease cannot transmit it. TB disease is usu
 In certain countries, the Bacille Calmette-Guérin (BCG) vaccine is given to babies or small children to prevent TB. The vaccine prevents deaths from TB and protects children from serious forms of TB.
 
 ### Risk Factors
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 Certain conditions can increase a person's risk for TB disease:
 
@@ -53,6 +56,7 @@ Certain conditions can increase a person's risk for TB disease:
 • Harmful use of alcohol
 
 ## Symptoms
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 📋 **Need immediate help?** → [Emergency Contacts](https://www.health.go.ug) | **National Health Helpline: 0800 100 066**
 
@@ -75,6 +79,7 @@ The symptoms people get depend on which part of the body is affected by TB. Whil
 🔗 **Learn More:** [CDC TB Symptoms Guide](https://www.cdc.gov/tb/communication-resources/tuberculosis-fact-sheet.html) | [WHO Prevention Guidelines](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)
 
 ## Prevention
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 Follow these steps to help prevent tuberculosis infection and spread:
 
@@ -89,6 +94,7 @@ Follow these steps to help prevent tuberculosis infection and spread:
 • **Special measures** like respirators and ventilation are important to reduce infection in healthcare facilities and other institutions.
 
 ## Diagnosis
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 WHO recommends the use of **rapid molecular diagnostic tests** as the initial diagnostic test in all persons with signs and symptoms of TB.
 
@@ -101,6 +107,7 @@ WHO recommends the use of **rapid molecular diagnostic tests** as the initial di
 Diagnosing multidrug-resistant and other resistant forms of TB as well as HIV-associated TB can be complex and expensive. Tuberculosis is particularly difficult to diagnose in children.
 
 ## Treatment
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 🏥 **Need treatment?** → [Find Treatment Centers](#treatment-centers--healthcare-facilities) | **Free TB treatment** available at all public facilities
 
@@ -120,6 +127,7 @@ To be effective, medications need to be taken daily for **4–6 months**. It is 
 TB that doesn't respond to standard drugs is called **drug-resistant TB** and requires treatment with different medicines.
 
 ## Multidrug-resistant TB (MDR-TB)
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 Drug resistance emerges when TB medicines are used inappropriately, through incorrect prescription by health care providers, poor quality drugs, or patients stopping treatment prematurely.
 
@@ -132,6 +140,7 @@ In some cases, **extensively drug resistant TB (XDR-TB)** can develop. TB caused
 WHO guidelines prioritized a short **6-month all-oral regimen known as BPaLM/BPaL** as a treatment of choice for eligible patients. Globally in 2023, 5,646 people with MDR/RR-TB were reported to have been started treatment on the BPaLM/BPaL regimen, up from 1,744 in 2022.
 
 ## TB and HIV
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 People living with HIV are **16 times more likely** to fall ill with TB disease than people without HIV. TB is the leading cause of death among people with HIV.
 
@@ -144,6 +153,7 @@ HIV and TB form a lethal combination, each speeding the other's progress. In 202
 WHO recommends a **12-component approach** of collaborative TB-HIV activities, including actions for prevention and treatment of infection and disease, to reduce deaths.
 
 ## Global Impact
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 TB mostly affects adults in their most productive years. However, all age groups are at risk. Over **80% of cases and deaths** are in low- and middle-income countries.
 
@@ -168,6 +178,7 @@ Globally, about **50% of people treated for TB** and their households face total
 • **0.38 million** to diabetes
 
 ## Investments to End TB
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 **US$ 22 billion** are needed annually for TB prevention, diagnosis, treatment and care to achieve global targets by 2027 agreed on at the 2023 UN high level-TB meeting.
 
@@ -179,6 +190,7 @@ Globally, about **50% of people treated for TB** and their households face total
 • Financing for TB research and innovation at **US$ 1.0 billion in 2022** falls far short of the global target of **US$ 5 billion per year**
 
 ## WHO Response
+*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
 
 WHO is working closely with countries, partners and civil society in scaling up the TB response through six core functions:
 
@@ -208,6 +220,7 @@ WHO is working closely with countries, partners and civil society in scaling up 
 *Last updated: April 17, 2025*
 
 ## Key Points
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 • Both **inactive tuberculosis (TB)** (also called latent TB infection) and **active TB disease** can be treated.
 
@@ -216,6 +229,7 @@ WHO is working closely with countries, partners and civil society in scaling up 
 • Completing treatment for inactive TB and active TB disease can protect yourself, your family and friends, and your community.
 
 ## Treatment Overview
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 Not everyone infected with TB germs becomes sick. As a result, two TB-related conditions exist: **inactive TB** and **active TB disease**. Both inactive TB and active TB disease can be treated.
 
@@ -224,6 +238,7 @@ Even though you may not feel sick, inactive TB can develop into active TB diseas
 TB germs are strong, and it can take a long time for them to die. It is important to take and finish all TB medicines exactly as your health care provider recommends.
 
 ## Treatment Options
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 There are several safe and effective treatment plans recommended in the United States for inactive TB and active TB disease. A treatment plan (also called treatment regimen) includes:
 
@@ -264,6 +279,7 @@ There are several treatment plans for drug-resistant TB disease depending on wha
 People with drug-resistant TB disease must be treated with special medicines. Treatment may take a long time, sometimes months or years, and the medicines can cause side effects.
 
 ## Before Starting Treatment
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 ### Important Considerations:
 
@@ -278,6 +294,7 @@ Tell your health care provider if you are or think you may be pregnant, or are b
 Drinking alcoholic beverages while taking medicines for inactive TB or active TB disease can be dangerous and may hurt your liver.
 
 ## Side Effects
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 Most people can take their TB medicines without any problems. However, like all medicines, TB medicines can have side effects. People react differently to medicines.
 
@@ -301,6 +318,7 @@ Most people can take their TB medicines without any problems. However, like all 
 *Note: If taking isoniazid, your provider may add vitamin B6 to prevent tingling/numbness.*
 
 ## Special Considerations
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 ### Children
 There are several treatments available for children with inactive TB or active TB disease. Health care providers will consider a child's age, weight, and other factors when prescribing treatment.
@@ -312,6 +330,7 @@ There are several treatment options for people with HIV who have inactive TB or 
 If you are pregnant, your health care provider will choose TB medicines that are recommended for use during pregnancy and will monitor you and your baby during treatment.
 
 ## Completing Treatment
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 ### Take All TB Medicines Exactly as Prescribed
 
@@ -351,6 +370,7 @@ Ask your health care provider for a written record that you have completed treat
 Most healthy people will not need to be treated for TB ever again. However, if you are around someone with active TB disease, there is a chance you can get new TB germs in your body.
 
 ## Getting Support
+*Source: [CDC Treatment Guidelines](https://www.cdc.gov/tb/treatment/index.html)*
 
 ### If You Need Additional Assistance:
 
@@ -377,6 +397,7 @@ Most healthy people will not need to be treated for TB ever again. However, if y
 *Type: Correspondence*
 
 ## Authors
+*Source: [The Lancet Correspondence](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01609-X/fulltext)*
 
 - **Samuel Kizito** (kizito.s@wustl.edu) - Washington University, USA & Makerere University Johns Hopkins University Research Collaboration, Uganda
 - **Josephine Nabayinda** - Makerere University Johns Hopkins University Research Collaboration, Uganda  
@@ -384,6 +405,7 @@ Most healthy people will not need to be treated for TB ever again. However, if y
 - **Fred M Ssewamala** - Washington University, USA
 
 ## Key Points
+*Source: [The Lancet Correspondence](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01609-X/fulltext)*
 
 ### TB-HIV Burden in Uganda
 
@@ -508,6 +530,7 @@ This correspondence highlights the critical role of poverty as a driver of poor 
 *TB Assessment Digital Surveillance Report*
 
 ## Background
+*Source: [Stop TB Partnership - Uganda TB Assessment](https://tbassessment.stoptb.org/uganda.html)*
 
 ### TB Burden in Uganda (2020)
 
@@ -698,6 +721,7 @@ Email: info@health.go.ug
 🔗 **Additional Support:** [Help Center Components](help_center_components.md) | [Complete Resource List](knowledge_base.txt)
 
 ## Where to Get TB Treatment
+*Source: Compiled from [Uganda Ministry of Health](https://www.health.go.ug), WHO Guidelines, and Local Health Facility Data*
 
 ### Public Health Facilities
 
@@ -750,6 +774,7 @@ All 15 Regional Referral Hospitals in Uganda provide TB diagnosis and treatment 
   - Contact: +256 414 258 001
 
 ## TB Testing & Screening Locations
+*Source: Compiled from [Uganda Ministry of Health](https://www.health.go.ug) and WHO Testing Guidelines*
 
 ### Free TB Testing Centers
 
@@ -803,6 +828,7 @@ Contact your district health office for regional coordinator contacts
 🔗 **More Support Options:** [Help Center Components](help_center_components.md#enhanced-contact-support) | [Community Support Networks](help_center_components.md#community-support-network)
 
 ## Patient Support Services
+*Source: Compiled from [Uganda Ministry of Health](https://www.health.go.ug), WHO Guidelines, and NGO Program Information*
 
 ### Financial Support
 
@@ -925,39 +951,39 @@ Contact your district health office for regional coordinator contacts
 - **Contact information** for family/emergency contact
 
 ## Frequently Asked Questions
+*Source: [CDC TB Questions & Answers PDF](https://www.cdc.gov/tb/media/Question_Answers_About_TB_English.pdf) and Local Health System Information*
 
-### Treatment Access
+### Basic TB Information
 
-**Q: Is TB treatment free in Uganda?**
-A: Yes, TB diagnosis and treatment are provided free of charge at all public health facilities.
+**Q: What is TB?**
+A: Tuberculosis (TB) is caused by a bacterium called Mycobacterium tuberculosis (M. tuberculosis). The bacteria, or germs, usually affect the lungs. TB germs can affect any part of the body, such as the kidneys, spine, or brain.
 
-**Q: Can I get treated at private facilities?**
-A: Yes, private facilities also provide TB treatment, though costs may apply.
+**Q: How is TB spread?**
+A: TB is spread through the air from one person to another. The TB germs are spread into the air when a person with infectious TB disease of the lungs or throat coughs, speaks, or sings. People nearby may breathe in these TB germs and become infected. When a person breathes in TB germs, the TB germs can settle in the lungs and begin to grow. From there, the TB germs can move through the blood to other parts of the body, such as the kidney, spine, or brain.
 
-**Q: What if I can't afford transport to the clinic?**
-A: Some districts provide transport vouchers. Ask your health facility about available support.
+**Q: What is latent TB infection (LTBI)?**
+A: Latent TB infection occurs when TB germs are in your body but are not active. People with latent TB infection do not feel sick, do not have symptoms, and cannot spread TB to others. However, without treatment, latent TB infection can progress to TB disease.
 
-### Treatment Process
+**Q: What are the symptoms of TB disease?**
+A: Symptoms of TB disease depend on where in the body the TB germs are growing. TB disease in the lungs may cause the following symptoms:
+- **Cough** (lasting longer than 3 weeks)
+- **Coughing up blood or sputum** (phlegm from inside the lungs)
+- **Chest pain**
+- **Fever**
+- **Night sweats** 
+- **Chills**
+- **Loss of appetite**
+- **Weakness or fatigue**
+- **Weight loss**
 
-**Q: How long does TB treatment take?**
-A: Standard TB treatment takes 6 months. Drug-resistant TB may take 18-24 months.
+Symptoms of TB disease in other parts of the body may include:
+- **TB of the kidney** may cause blood in the urine
+- **TB meningitis** may cause headache or confusion
+- **TB of the spine** may cause back pain
+- **TB of the larynx** may cause hoarseness
 
-**Q: Can I work while on TB treatment?**
-A: Yes, most people can continue working after the first 2-3 weeks of treatment.
-
-**Q: What if I miss doses?**
-A: Contact your health provider immediately. Do not stop treatment without medical advice.
-
-### Support Services
-
-**Q: Are there support groups for TB patients?**
-A: Yes, many communities have TB support groups. Ask at your health facility.
-
-**Q: Can my family get tested?**
-A: Yes, close contacts should be screened for TB. This service is free.
-
-**Q: Is there help with nutrition during treatment?**
-A: Some programs provide nutritional support. Ask your health provider about available options.
+**Q: What if I have a positive test for TB infection?**
+A: If you have a positive reaction to the TB blood test or TB skin test, your doctor or nurse will do other tests to see if you have TB disease. These tests usually include a chest x-ray. They may also include a test of the sputum you cough up. Because TB germs may be found somewhere other than your lungs, your doctor or nurse may check your urine, take tissue samples, or do other tests. Without treatment, latent TB infection (LTBI) can progress to TB disease.
 
 ---
 
@@ -1000,7 +1026,8 @@ A: Some programs provide nutritional support. Ask your health provider about ava
 
 ---
 
-## DSI MDR System Login & Password Reset Guide
+## 🛡️ DSI MDR System Login & Password Reset Guide
+*Source: User-provided system information*
 
 ### How to Log In
 - Go to the login page: [https://dsi-mdr.emergentai.ug/auth](https://dsi-mdr.emergentai.ug/auth)
