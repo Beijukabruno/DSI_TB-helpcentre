@@ -45,15 +45,40 @@ Those who are infected but free of disease cannot transmit it. TB disease is usu
 In certain countries, the Bacille Calmette-Guérin (BCG) vaccine is given to babies or small children to prevent TB. The vaccine prevents deaths from TB and protects children from serious forms of TB.
 
 ### Risk Factors
-*Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
+*Sources: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis), [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/11301-tuberculosis)*
 
-Certain conditions can increase a person's risk for TB disease:
+#### Higher Risk for TB Exposure:
 
-• Diabetes (high blood sugar)
-• Weakened immune system (for example, from HIV or AIDS)
-• Being malnourished
-• Tobacco use
-• Harmful use of alcohol
+• **Group settings where TB can spread:** Jails, prisons, hospices, skilled nursing facilities, shelters, and other healthcare facilities
+• **Occupational exposure:** Working in mycobacteriology laboratories
+• **Geographic risk:** Having lived in regions where TB is common (Latin America, the Caribbean, Africa, Asia, Eastern Europe, and Russia)
+• **Contact exposure:** Being in contact with someone known or suspected to have TB disease
+
+#### Higher Risk for Developing Active TB Disease:
+
+• **Diabetes** (high blood sugar)
+• **Weakened immune system** (HIV/AIDS, immunosuppressive medications)
+• **Malnutrition**
+• **Tobacco use**
+• **Harmful use of alcohol**
+• **Intravenous drug use**
+• **Immature or impaired immune system** (babies, children, elderly)
+• **Chronic illnesses** (kidney disease, other long-term conditions)
+• **Organ transplant recipients**
+• **Cancer patients on chemotherapy**
+
+#### Uganda Prison TB Crisis (2025)
+*Source: [Makerere University Study, May 2025](https://news.mak.ac.ug/2025/05/tb-in-prisons-eight-times-higher-risk-than-general-population-in-uganda-study/)*
+
+Recent research highlights the extreme vulnerability of incarcerated populations:
+
+• **Prison TB prevalence:** 1,900 per 100,000 (8x higher than general population)
+• **Latent TB:** Nearly half of Uganda's prison population affected
+• **HIV co-infection:** 11% prevalence among prisoners (2x general population)
+• **Female prisoners:** Highest HIV rates at 21%
+• **Prison overcrowding:** 340% capacity with 56,400 prisoners in facilities built for 16,612
+
+*This study was conducted by Makerere University School of Public Health, Uganda Prisons Services, and Ministry of Health, with PEPFAR funding and CDC technical support.*
 
 ## Symptoms
 *Source: [WHO TB Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/tuberculosis)*
