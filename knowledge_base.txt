@@ -4,6 +4,7 @@
 
 ### World Health Organization (WHO)
 - **WHO TB Factsheet**: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+- **WHO Global TB Report 2024**: https://www.who.int/publications/i/item/9789240101531
 - **WHO Global TB Report**: https://www.who.int/teams/global-tuberculosis-programme/tb-reports
 - **WHO TB Prevention**: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
 
@@ -38,15 +39,22 @@ Feasibility of Novel Diagnostics for TB in Endemic countries: https://www.fend-t
 
 CDC's : https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html, https://www.cdc.gov/tb/communication-resources/tuberculosis-fact-sheet.html, https://www.cdc.gov/tb/communication-resources/staying-on-track-with-tb-medicine-booklet.html
 
-## PDF Resources (Downloaded)
+## PDF Resources Included in Repository
 
-### CDC TB Questions and Answers Booklet
-- **File**: CDC_TB_Questions_Answers.pdf
-- **Source**: https://www.cdc.gov/tb/media/Question_Answers_About_TB_English.pdf
-- **Description**: Comprehensive Q&A booklet covering TB diagnosis and treatment
-- **Format**: PDF, 24 pages, 10 MB
-- **Language**: English
-- **Last Updated**: Available in multiple languages on CDC website
+### WHO Documents
+- **WHO Global TB Report 2024**: WHO_Global_TB_Report_2024.pdf
+  - Source: https://www.who.int/publications/i/item/9789240101531
+  - Latest global tuberculosis statistics and trends
+  - Country-specific data and analysis
+  - Policy recommendations and best practices
+  - Publication Year: 2024
+  - File: WHO_Global_TB_Report_2024.pdf
+
+- **CDC TB Questions & Answers**: CDC_TB_Questions_Answers.pdf
+  - Source: https://www.cdc.gov/tb/media/Question_Answers_About_TB_English.pdf
+  - Size: 10MB, 24 pages
+  - Language: English
+  - Comprehensive TB FAQ for patients and healthcare providers
 
 ## Academic Research Articles (Integrated)
 

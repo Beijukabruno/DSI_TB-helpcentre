@@ -12,6 +12,7 @@
 
 **🔗 External Resources:**
 - [CDC TB Questions & Answers](https://www.cdc.gov/tb/communication-resources/tb-questions-and-answers-booklet.html)
+- [WHO Global TB Report 2024](https://www.who.int/publications/i/item/9789240101531) - **📄 [Local PDF](WHO_Global_TB_Report_2024.pdf)**
 - [WHO Global TB Report](https://www.who.int/teams/global-tuberculosis-programme/tb-reports)
 - [Uganda TB Assessment](https://tbassessment.stoptb.org/uganda.html)
 

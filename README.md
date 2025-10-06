@@ -4,48 +4,24 @@ A comprehensive knowledge base for tuberculosis (TB) information and resources d
 
 ## Contents
 
-### 📄 Files
+### 📁 Repository Contents
 
-- **[tuberculosis_who_factsheet.md](tuberculosis_who_factsheet.md)** - Comprehensive tuberculosis knowledge base combining global guidelines, clinical practice, research, and patient services
-- **[help_center_components.md](help_center_components.md)** - Enhanced help center features with user journeys, troubleshooting, and quick access functionality
-- **[knowledge_base.txt](knowledge_base.txt)** - Quick reference guide with categorized TB resources and contact information
-- **[CDC_TB_Questions_Answers.pdf](CDC_TB_Questions_Answers.pdf)** - CDC's comprehensive Q&A booklet about tuberculosis (24 pages, PDF format)
+### 📄 **Main Knowledge Base Files**
+- **[`tuberculosis_who_factsheet.md`](tuberculosis_who_factsheet.md)** - Comprehensive TB information from WHO, CDC, and academic sources with embedded navigation links
+- **[`help_center_components.md`](help_center_components.md)** - Modern help center features including search, user journeys, and support channels
+- **[`knowledge_base.txt`](knowledge_base.txt)** - Quick reference with all source links and resource categories
 
-### 📚 Information Sources
+### 📚 **PDF Resources**
+- **[`WHO_Global_TB_Report_2024.pdf`](WHO_Global_TB_Report_2024.pdf)** - Latest WHO Global Tuberculosis Report 2024 with current statistics, trends, and policy recommendations
+- **[`CDC_TB_Questions_Answers.pdf`](CDC_TB_Questions_Answers.pdf)** - Comprehensive CDC TB Questions & Answers booklet (24 pages)
 
-#### WHO (World Health Organization)
-- Global tuberculosis statistics and facts
-- Prevention and diagnosis guidelines
-- Multidrug-resistant TB information
-- TB and HIV relationship
-- Global impact and investment data
-
-#### CDC (Centers for Disease Control and Prevention)
-- Detailed treatment guidelines
-- Medication information and side effects
-- Patient support resources
-- Special considerations for different populations
-
-#### Academic Research (The Lancet)
-- Social determinants of health in TB-HIV care
-- Poverty as a barrier to treatment success
-- Case study from Uganda's TB-HIV program
-- Research gaps and policy recommendations
-
-#### Digital Health Systems Assessment (Stop TB Partnership)
-- Uganda's digital TB surveillance system evaluation
-- DHIS2 implementation and challenges
-- Resource requirements for national scale-up
-- Best practices for case-based TB surveillance
-- Integration with health information systems
-
-#### Patient Services & Support (Uganda-Focused)
-- Treatment centers and healthcare facilities
-- Testing and diagnostic service locations
-- Emergency contacts and helplines
-- Financial, nutritional, and counseling support
-- Community resources and peer networks
-- Frequently asked questions for patients
+### 🌍 **Data Sources Coverage**
+- **Global Health Policy**: WHO guidelines and 2024 global statistics
+- **Clinical Practice**: CDC treatment protocols and patient resources
+- **Academic Research**: The Lancet research on social determinants
+- **Digital Health**: Uganda TB surveillance system assessment
+- **National Guidelines**: Uganda Ministry of Health resources (monitoring status)
+- **Patient Services**: Treatment centers, emergency contacts, and support networks
 
 ## Repository Purpose
 
@@ -117,6 +93,21 @@ This knowledge base is optimized for use with AI agents and help centre systems:
 - **Contact information** and practical guidance
 - **FAQ sections** for common queries
 - **Cross-referenced sources** for verification
+
+## 📊 **Latest Updates**
+
+### 🆕 **WHO Global TB Report 2024** (Latest Addition)
+- **Current global TB statistics and trends**
+- **Country-specific epidemiological data**
+- **Treatment outcomes and drug resistance patterns**
+- **Policy recommendations for 2024-2025**
+- **Progress toward End TB Strategy targets**
+
+### 🏥 **Patient Services Hub**
+- Emergency contact information for Uganda
+- Treatment center locations and services
+- Free testing and treatment availability
+- Community support networks
 
 ## Last Updated
 
