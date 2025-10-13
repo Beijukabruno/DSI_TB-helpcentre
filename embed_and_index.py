@@ -19,6 +19,7 @@ for i, chunk in enumerate(chunks):
         "chunk_id": f"{chunk['source_file']}_{i}"
     }
     collection.add(
+        ids=[metadata["chunk_id"]],
         embeddings=[embedding],
         documents=[chunk['text']],
         metadatas=[metadata]
