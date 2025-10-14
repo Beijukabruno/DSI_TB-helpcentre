@@ -16,7 +16,8 @@ for i, chunk in enumerate(chunks):
     metadata = {
         "header": chunk["header"],
         "source_file": chunk["source_file"],
-        "chunk_id": f"{chunk['source_file']}_{i}"
+        "chunk_id": f"{chunk['source_file']}_{i}",
+        "source_url": chunk.get("source_url")
     }
     collection.add(
         ids=[metadata["chunk_id"]],

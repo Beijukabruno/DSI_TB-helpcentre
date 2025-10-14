@@ -5,7 +5,7 @@ import json
 from sentence_transformers import SentenceTransformer
 import chromadb
 from dotenv import load_dotenv
-import genai
+import google.generativeai as genai
 
 # --- Load environment variables ---
 load_dotenv()
@@ -20,10 +20,14 @@ def chunk_markdown_file(file_path):
     for i in range(1, len(chunks), 2):
         header = chunks[i].strip()
         text = chunks[i+1].strip()
+        # Extract source_url if present
+        url_match = re.search(r'<!--\s*source_url:\s*(.*?)\s*-->', text)
+        source_url = url_match.group(1) if url_match else None
         result.append({
-            "text": text,
+            "text": re.sub(r'<!--.*?-->', '', text).strip(),
             "header": header,
-            "source_file": os.path.basename(file_path)
+            "source_file": os.path.basename(file_path),
+            "source_url": source_url
         })
     return result
 
@@ -37,7 +41,8 @@ def embed_and_index(chunks, persist_directory="Vector_db", collection_name="DSI_
         metadata = {
             "header": chunk["header"],
             "source_file": chunk["source_file"],
-            "chunk_id": f"{chunk['source_file']}_{i}"
+            "chunk_id": f"{chunk['source_file']}_{i}",
+            "source_url": chunk.get("source_url")
         }
         collection.add(
             ids=[metadata["chunk_id"]],
@@ -67,7 +72,8 @@ def build_prompt(user_query, results):
         f"Question: {user_query}\n\nRelevant Information:\n"
     )
     for i, (doc, meta) in enumerate(zip(results['documents'][0], results['metadatas'][0]), 1):
-        prompt += f"{i}. {doc} (Source: {meta['source_file']}, Section: {meta['header']})\n"
+        ref = meta.get('source_url') if meta.get('source_url') else f"{meta['source_file']}, Section: {meta['header']}"
+        prompt += f"{i}. {doc} (Reference: {ref})\n"
     prompt += "\nYour answer:"
     return prompt
 
@@ -127,6 +133,9 @@ if __name__ == "__main__":
             print("\nAnswer:\n", result["answer"])
             print("\nReferences:")
             for src in result["sources"]:
-                print(f"- {src['source_file']} | {src['header']}")
+                if src.get("source_url"):
+                    print(f"- {src['header']} | {src['source_url']}")
+                else:
+                    print(f"- {src['header']} | {src['source_file']}")
         except Exception as e:
             print("Error:", e)
