@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environment
+.env
+.env.*
+
+# Vector DB
+Vector_db/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+.venv/
+# Logs
+*.log
+
+# Other
+chunks.json
