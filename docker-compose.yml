@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  indexer:
+    image: tb-chatbot:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["/bin/sh", "-c", "python chunk_markdown.py && python embed_and_index.py"]
+    volumes:
+      - ./Vector_db:/app/Vector_db
+      - ./:/app
+    env_file:
+      - .env
+    deploy:
+      restart_policy:
+        condition: none
+
+  api:
+    image: tb-chatbot:latest
+    depends_on:
+      - indexer
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./Vector_db:/app/Vector_db
+      - ./:/app
+    env_file:
+      - .env
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+    restart: unless-stopped

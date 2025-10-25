@@ -66,11 +66,10 @@ def readiness():
 
     This is a lightweight check and does not perform external API calls.
     """
-    mock_mode = os.getenv("MOCK_GEMMA", "false").lower() == "true"
     api_key_present = bool(os.getenv("GOOGLE_API_KEY"))
-    ready = mock_mode or api_key_present
+    ready = api_key_present
     return {
         "ready": ready,
-        "mode": "mock" if mock_mode else "live",
+        "mode": "live" if api_key_present else "no-key",
         "api_key_present": api_key_present
     }

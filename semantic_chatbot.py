@@ -97,14 +97,10 @@ def build_prompt(user_query, results):
 
 # --- 5. Call Gemma LLM ---
 def call_gemma_model(prompt: str, model_name: str = 'gemma-3-4b-it') -> dict:
-    # Optional local mock mode for CI/testing: set MOCK_GEMMA=true in env to skip external calls
-    if os.getenv("MOCK_GEMMA", "false").lower() == "true":
-        return {"response": "[MOCK] This is a canned response used for testing.", "llm_model": "mock", "llm_model_version": "0.0"}
-
     if genai is None:
         raise ImportError("genai module not installed. Please install the Google GenAI SDK.")
     if not GEMMA_API_KEY or GEMMA_API_KEY == "your_gemma_api_key_here":
-        raise ValueError("GEMMA_API_KEY environment variable is not set or is using placeholder value")
+        raise ValueError("GEMMA_API_KEY environment variable is not set or is using placeholder value. This service requires a valid Google Generative Language API key.")
     genai.configure(api_key=GEMMA_API_KEY)
     model = genai.GenerativeModel(model_name)
     try:
