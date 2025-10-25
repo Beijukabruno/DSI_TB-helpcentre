@@ -1,0 +1,20 @@
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# ignore virtualenv and local env files
+.venv/
+.env
+
+# ignore data and dbs
+Vector_db/
+*.sqlite
+
+# git
+.git
+
+# node_modules etc
+node_modules/
+
+# other
+.DS_Store
