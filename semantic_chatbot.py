@@ -9,7 +9,10 @@ import pandas as pd
 
 # --- Load environment variables ---
 load_dotenv()
-GEMMA_API_KEY = os.getenv("GOOGLE_API_KEY")
+# Prefer GEMMA_API_KEY but fall back to GOOGLE_API_KEY for compatibility with
+# different deployment conventions (.env or CI secrets). This ensures the
+# application finds the key whether it's set as GEMMA_API_KEY or GOOGLE_API_KEY.
+GEMMA_API_KEY = os.getenv("GEMMA_API_KEY") or os.getenv("GOOGLE_API_KEY")
 
 # --- 1. Chunk Markdown Files ---
 def extract_sources(content):
