@@ -1,0 +1,23 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install system packages required by sentence-transformers (kept minimal)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy only what's needed for semantic-only image
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy semantic search runtime files only
+COPY semantic_search.py ./
+COPY routes ./routes
+COPY semantic_app.py ./
+
+# Expose app port
+EXPOSE 8000
+
+CMD ["uvicorn", "semantic_app:app", "--host", "0.0.0.0", "--port", "8000"]
