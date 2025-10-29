@@ -16,8 +16,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY semantic_search.py ./
 COPY routes ./routes
 COPY semantic_app.py ./
+COPY chunk_markdown.py ./
+COPY embed_and_index.py ./
+COPY knowledge_base ./knowledge_base
+COPY entrypoint.sh ./
+RUN chmod +x ./entrypoint.sh
 
 # Expose app port
 EXPOSE 8000
 
-CMD ["uvicorn", "semantic_app:app", "--host", "0.0.0.0", "--port", "8000"]
+ENTRYPOINT ["./entrypoint.sh"]
