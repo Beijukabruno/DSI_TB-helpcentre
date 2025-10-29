@@ -2,11 +2,18 @@
 from fastapi import FastAPI, Request, HTTPException
 from pydantic import BaseModel
 from semantic_chatbot import answer_query, chunk_markdown_file
+from fastapi import APIRouter
+
+# Import and mount semantic-search-only router
+from routes.semantic_search_api import router as semantic_search_router
 import logging
 import os
 
 app = FastAPI()
 logger = logging.getLogger("uvicorn.error")
+
+# Mount the semantic-search router at /api
+app.include_router(semantic_search_router, prefix="/api")
 
 class QueryRequest(BaseModel):
     question: str
