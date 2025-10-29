@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
+
 # Copy only what's needed for semantic-only image
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
