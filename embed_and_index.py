@@ -13,15 +13,25 @@ with open("chunks.json") as f:
 
 for i, chunk in enumerate(chunks):
     embedding = model.encode(chunk['text'])
+    # Ensure embedding is a plain Python list (Chromadb-friendly)
+    try:
+        embedding_list = embedding.tolist()
+    except Exception:
+        embedding_list = embedding
+
+    # Normalize metadata fields to avoid None values (Chromadb requires primitive types)
+    header = chunk.get("header") or ""
+    source_file = chunk.get("source_file") or ""
+    source_url = chunk.get("source_url") or ""
     metadata = {
-        "header": chunk["header"],
-        "source_file": chunk["source_file"],
-        "chunk_id": f"{chunk['source_file']}_{i}",
-        "source_url": chunk.get("source_url")
+        "header": str(header),
+        "source_file": str(source_file),
+        "chunk_id": f"{source_file}_{i}",
+        "source_url": str(source_url)
     }
     collection.add(
         ids=[metadata["chunk_id"]],
-        embeddings=[embedding],
+        embeddings=[embedding_list],
         documents=[chunk['text']],
         metadatas=[metadata]
     )
