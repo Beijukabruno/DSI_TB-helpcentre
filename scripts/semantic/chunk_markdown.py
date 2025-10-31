@@ -1,4 +1,13 @@
-# scripts/chunk_markdown.py
+#!/usr/bin/env python3
+"""
+scripts/semantic/chunk_markdown.py
+
+Chunk markdown files in `knowledge_base/` into JSON chunks suitable for
+embedding and indexing. Output path defaults to `data/chunks.json`.
+
+This is the organized copy of the chunker intended to live under
+`scripts/semantic/` so all semantic scripts are in one place.
+"""
 import os
 import re
 import csv

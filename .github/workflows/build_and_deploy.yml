@@ -25,7 +25,8 @@ jobs:
       - name: Build and push semantic-only Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./Dockerfile.semantic
+          # Build only from the dedicated semantic_service folder to keep context small
+          context: ./semantic_service
+          file: ./semantic_service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/tb-chatbot-semantic:latest

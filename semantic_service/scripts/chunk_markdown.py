@@ -1,4 +1,11 @@
-# scripts/chunk_markdown.py
+#!/usr/bin/env python3
+"""
+semantic_service/scripts/chunk_markdown.py
+
+Chunk markdown files located in the service `knowledge_base/` directory into
+`data/chunks.json` inside the service. This script is self-contained and uses
+paths relative to the semantic_service root so the service can be moved/copied.
+"""
 import os
 import re
 import csv
@@ -6,14 +13,21 @@ import json
 from pathlib import Path
 
 
-def load_md_sources(csv_path: str = "md_sources.csv") -> dict:
-    """Return mapping {md_name: first non-empty source_url}."""
+# BASE_DIR should point to the semantic_service root (one parent up from scripts)
+BASE_DIR = Path(__file__).resolve().parents[1]
+KB_DIR = BASE_DIR / "knowledge_base"
+CSV_PATH = BASE_DIR / "md_sources.csv"
+OUTPUT_PATH = BASE_DIR / "data" / "chunks.json"
+
+
+def load_md_sources(csv_path: str = str(CSV_PATH)) -> dict:
     mapping = {}
-    if not os.path.exists(csv_path):
+    p = Path(csv_path)
+    if not p.exists():
         print(f"[WARN] CSV not found: {csv_path}")
         return mapping
 
-    with open(csv_path, newline='', encoding='utf-8') as f:
+    with p.open(newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             md = row.get("md_name", "").strip()
@@ -23,12 +37,11 @@ def load_md_sources(csv_path: str = "md_sources.csv") -> dict:
     return mapping
 
 
-def chunk_markdown_file(file_path: str, md_sources: dict) -> list:
-    """Split a markdown file into logical text chunks based on headings."""
-    with open(file_path, "r", encoding="utf-8") as f:
+def chunk_markdown_file(file_path: Path, md_sources: dict) -> list:
+    with file_path.open(encoding='utf-8') as f:
         content = f.read().strip()
 
-    basename = os.path.basename(file_path)
+    basename = file_path.name
     source_url = md_sources.get(basename, "")
 
     heading_re = re.compile(r"^(#{2,6}\s+.+)$", flags=re.MULTILINE)
@@ -59,7 +72,6 @@ def chunk_markdown_file(file_path: str, md_sources: dict) -> list:
                 "source_url": source_url
             })
 
-    # If no headings, treat as single chunk
     if not chunks:
         chunks.append({
             "text": content,
@@ -71,24 +83,20 @@ def chunk_markdown_file(file_path: str, md_sources: dict) -> list:
     return chunks
 
 
-def chunk_all_markdown(folder: str = "knowledge_base", output_path: str = "data/chunks.json"):
-    """Process all .md files and save chunks to JSON."""
+def chunk_all_markdown(folder: Path = KB_DIR, output_path: Path = OUTPUT_PATH):
     md_sources = load_md_sources()
     all_chunks = []
+    for p in sorted(folder.glob('*.md')):
+        chunks = chunk_markdown_file(p, md_sources)
+        all_chunks.extend(chunks)
+        print(f"Chunked: {p.name} ({len(chunks)} chunks)")
 
-    for fname in os.listdir(folder):
-        if fname.endswith(".md"):
-            fpath = os.path.join(folder, fname)
-            chunks = chunk_markdown_file(fpath, md_sources)
-            all_chunks.extend(chunks)
-            print(f"Chunked: {fname} ({len(chunks)} chunks)")
-
-    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open('w', encoding='utf-8') as f:
         json.dump(all_chunks, f, ensure_ascii=False, indent=2)
 
     print(f"[DONE] Saved {len(all_chunks)} chunks to {output_path}")
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     chunk_all_markdown()
