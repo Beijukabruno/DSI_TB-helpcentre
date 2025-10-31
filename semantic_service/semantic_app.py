@@ -12,7 +12,7 @@ app = FastAPI(
 
 class HealthResponse(BaseModel):
     status: str
-    
+
 @app.get("/health", response_model=HealthResponse, tags=["Health"])
 def health() -> HealthResponse:
     return HealthResponse(status="ok")
@@ -23,4 +23,4 @@ def ready() -> Any:
     return {"ready": True, "mode": "semantic-only"}
 
 
-app.include_router(search_router, prefix="/api", tags=["Semantic Search"])
+app.include_router(search_router)

@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 from typing import List, Optional
 import semantic_search
 
-router = APIRouter(prefix="/api", tags=["Semantic Search"])
+router = APIRouter(tags=["Semantic Search"])
 
 
 class SearchRequest(BaseModel):
