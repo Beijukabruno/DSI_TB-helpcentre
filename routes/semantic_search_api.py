@@ -45,7 +45,8 @@ def semantic_search_endpoint(req: SearchRequest):
         matches.append(Match(
             header=meta.get("header", ""),
             source_file=meta.get("source_file", ""),
-            link=meta.get("link", ""),
+            # metadata stores source URL under 'source_url' (fallback to 'link' for older indexes)
+            link=meta.get("source_url") or meta.get("link", ""),
             markdown=doc
         ))
 

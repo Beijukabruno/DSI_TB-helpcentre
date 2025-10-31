@@ -23,6 +23,9 @@ for i, chunk in enumerate(chunks):
     header = chunk.get("header") or ""
     source_file = chunk.get("source_file") or ""
     source_url = chunk.get("source_url") or ""
+    # Debug: warn when no source_url is attached so we can trace missing CSV mappings
+    if not source_url:
+        print(f"[WARN] chunk {i} from {source_file} has empty source_url", flush=True)
     metadata = {
         "header": str(header),
         "source_file": str(source_file),
