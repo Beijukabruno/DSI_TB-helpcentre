@@ -1,10 +1,31 @@
 # chunk_markdown.py
 import os
 import re
+import csv
+
+
+def load_md_sources(csv_path="md_sources.csv"):
+    """Return a mapping md_name -> first non-empty source_url from the CSV."""
+    mapping = {}
+    if not os.path.exists(csv_path):
+        return mapping
+    with open(csv_path, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            md = row.get('md_name', '').strip()
+            url = (row.get('source_url') or '').strip()
+            if not md:
+                continue
+            if md not in mapping and url:
+                mapping[md] = url
+    return mapping
 
 def chunk_markdown_file(file_path):
     with open(file_path, 'r') as f:
         content = f.read()
+    # Load mapping of md -> source URL (if present)
+    md_sources = load_md_sources()
+
     # Split by headings (## or ###)
     chunks = re.split(r'(?:^|\n)(##+ .*)', content)
     result = []
@@ -14,7 +35,9 @@ def chunk_markdown_file(file_path):
         result.append({
             "text": text,
             "header": header,
-            "source_file": os.path.basename(file_path)
+            "source_file": os.path.basename(file_path),
+            # include the first known source URL for this markdown file, if any
+            "source_url": md_sources.get(os.path.basename(file_path), "")
         })
     return result
 
