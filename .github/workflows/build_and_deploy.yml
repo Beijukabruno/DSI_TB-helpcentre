@@ -38,6 +38,8 @@ jobs:
           file: ./chatbot_service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/tb-chatbot:latest
+          build-args: |
+            GEMMA_API_KEY=${{ secrets.GEMMA_API_KEY }}
 
       - name: Run chatbot smoke test (container start)
         env:
