@@ -21,7 +21,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
-
       - name: Build and push semantic-only Docker image
         uses: docker/build-push-action@v5
         with:
@@ -30,3 +29,37 @@ jobs:
           file: ./semantic_service/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/tb-chatbot-semantic:latest
+
+      - name: Build and push chatbot (LLM) Docker image
+        uses: docker/build-push-action@v5
+        with:
+          # Build from the chatbot_service folder so the image is self-contained
+          context: ./chatbot_service
+          file: ./chatbot_service/Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tb-chatbot:latest
+
+      - name: Run chatbot smoke test (container start)
+        env:
+          GEMMA_API_KEY: ${{ secrets.GEMMA_API_KEY }}
+          DOCKER_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/tb-chatbot:latest
+        run: |
+          set -euo pipefail
+          echo "Pulling the chatbot image..."
+          docker pull "$DOCKER_IMAGE"
+
+          echo "Starting container with GEMMA_API_KEY injected (only healthcheck will be used)..."
+          docker run -d -p 8001:8000 --name tb-chatbot-test -e GEMMA_API_KEY="${GEMMA_API_KEY}" "$DOCKER_IMAGE"
+
+          echo "Waiting for health endpoint..."
+          for i in $(seq 1 15); do
+            if curl -sSf http://localhost:8001/health >/dev/null 2>&1; then
+              echo "Chatbot service healthy"
+              break
+            fi
+            echo "Waiting... ($i)"
+            sleep 2
+          done
+
+          echo "Stopping test container..."
+          docker stop tb-chatbot-test || true
