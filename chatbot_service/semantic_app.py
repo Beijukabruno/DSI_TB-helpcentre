@@ -9,7 +9,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-
 class HealthResponse(BaseModel):
     status: str
 

@@ -1,26 +1,29 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Any, List
-# Use the local semantic_search module copied into this service folder. When
-# running via `uvicorn chatbot_service.chatbot_app:app` the package context
-# makes the relative import predictable.
 from . import semantic_search
 from chatbot_service.call_gemma import call_gemma_model
+from routes.semantic_search_api import router as chatbot_router
 
-
-app = FastAPI(title="TB Help Centre - Chatbot (LLM)")
-
+app = FastAPI(
+    title="TB Help Centre - Chatbot Service",
+    description="Chatbot API for interacting with the TB knowledge base.",
+    version="1.0.0"
+)
 
 class ChatRequest(BaseModel):
     query: str
     k: int = 5
-
 
 class ChatResponse(BaseModel):
     query: str
     answer: str
     sources: List[dict]
     llm_model: str
+
+
+class HealthResponse(BaseModel):
+    status: str
 
 
 def build_prompt(user_query: str, results: dict) -> str:
@@ -76,6 +79,13 @@ def chat(req: ChatRequest) -> ChatResponse:
     )
 
 
-@app.get('/health')
-def health() -> Any:
-    return {"status": "ok"}
+@app.get("/health", response_model=HealthResponse, tags=["Health"])
+def health() -> HealthResponse:
+    return HealthResponse(status="ok")
+
+
+@app.get("/ready", tags=["Health"])
+def ready() -> Any:
+    return {"ready": True, "mode": "chatbot"}
+
+app.include_router(chatbot_router)
