@@ -17,6 +17,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 ENV PYTHONPATH="/app:$PYTHONPATH"
 
 # Copy app code
+COPY consolidated_chatbot.py ./
+COPY entrypoint.sh ./
 COPY . .
 
 RUN chmod +x ./entrypoint.sh
