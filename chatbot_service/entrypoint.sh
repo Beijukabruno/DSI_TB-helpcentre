@@ -3,9 +3,8 @@ set -euo pipefail
 
 echo "[chatbot-service] Starting container..."
 
-cd /app/chatbot_service || { echo "Failed to cd into /app/chatbot_service"; exit 1; }
+cd /app || { echo "Failed to cd into /app"; exit 1; }
 
-# If chatbot_service has no vector_db, build it from the local knowledge_base.
 if [ ! -d ./vector_db ] || [ -z "$(ls -A ./vector_db 2>/dev/null || true)" ]; then
   echo "[chatbot-service] vector_db not found or empty — building index from knowledge_base (this may take a few minutes)..."
 
