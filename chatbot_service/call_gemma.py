@@ -3,14 +3,10 @@ from typing import Dict
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-load_dotenv()  # load .env in local/dev, but don't fail at import — validate at call time
-
+load_dotenv()  
 
 def call_gemma_model(prompt: str, model_name: str = 'gemma-3-4b-it') -> Dict:
-    """
-    Independent function to call Gemma model with any prompt.
-    Returns a dictionary with response, llm_model, and llm_model_version.
-    """
+
     api_key = os.getenv("GEMMA_API_KEY")
     if not api_key or api_key == "your_gemma_api_key_here":
         raise ValueError("GEMMA_API_KEY environment variable is not set or is using placeholder value")

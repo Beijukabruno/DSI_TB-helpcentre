@@ -12,16 +12,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
 
 # Copy requirements and install
-COPY requirements.txt ./
+COPY chatbot_service/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the service into the image. This Dockerfile is intended to be built from
-# the `chatbot_service` directory as build context (for CI you can set the build
-# context to the repo root and copy both chatbot_service and semantic_service).
+# Copy app code
 COPY . .
 
-RUN chmod +x ./entrypoint.sh || true
+RUN chmod +x ./chatbot_service/entrypoint.sh
 
 EXPOSE 8000
 
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["./chatbot_service/entrypoint.sh"]
