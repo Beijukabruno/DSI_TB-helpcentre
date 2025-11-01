@@ -1,6 +1,9 @@
 #!/bin/sh
 set -euo pipefail
 
+# Ensure PYTHONPATH includes the /app directory
+export PYTHONPATH="/app:$PYTHONPATH"
+
 echo "[chatbot-service] Starting container..."
 
 cd /app || { echo "Failed to cd into /app"; exit 1; }
