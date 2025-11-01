@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Any, List
-from . import semantic_search
+from chatbot_service import semantic_search
 from chatbot_service.call_gemma import call_gemma_model
 from routes.semantic_search_api import router as chatbot_router
 

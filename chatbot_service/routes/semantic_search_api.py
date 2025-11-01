@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
 from typing import List, Optional
-import semantic_search
+from chatbot_service.semantic_search import search
 
 router = APIRouter(tags=["Semantic Search"])
 
@@ -27,7 +27,7 @@ class SearchResponse(BaseModel):
 @router.post("/search", response_model=SearchResponse)
 def semantic_search_endpoint(req: SearchRequest) -> SearchResponse:
     try:
-        results = semantic_search.search(req.query, k=req.k)
+        results = search(req.query, k=req.k)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Search failed: {e}")
 
