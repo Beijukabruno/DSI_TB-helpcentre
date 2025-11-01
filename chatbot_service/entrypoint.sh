@@ -21,4 +21,4 @@ else
 fi
 
 echo "[chatbot-service] Starting Uvicorn on 0.0.0.0:8000 ..."
-exec uvicorn chatbot_app:app --host 0.0.0.0 --port 8000
+exec uvicorn chatbot_service.chatbot_app:app --host 0.0.0.0 --port 8000
