@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException, APIRouter
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, conint
 from typing import Any, List, Optional, Dict
 from sentence_transformers import SentenceTransformer
 import chromadb
@@ -7,6 +7,8 @@ import os
 from pathlib import Path
 import google.generativeai as genai
 from dotenv import load_dotenv
+from transformers import pipeline
+from chatbot_service.guardrail import guard_input, guard_output
 
 # Load environment variables
 load_dotenv()
@@ -18,6 +20,17 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Rating request model
+class RatingRequest(BaseModel):
+    rating: conint(ge=1, le=5)  # Ensures rating is between 1 and 5
+
+# Endpoint to capture user rating
+@app.post("/rate")
+async def rate_service(rating_request: RatingRequest):
+    rating = rating_request.rating
+    # TODO: Save the rating to a database or file
+    # For now, just acknowledge receipt
+    return {"message": "Thank you for your feedback!", "rating": rating}
 # Initialize embedding model and database
 BASE_DIR = Path(__file__).resolve().parent
 model_name = os.environ.get('EMBEDDING_MODEL', 'all-MiniLM-L6-v2')
@@ -28,7 +41,7 @@ client = chromadb.PersistentClient(path=persist_directory)
 collection = client.get_or_create_collection(name="DSI_TB")
 
 # Helper functions
-def search(query, k=3):
+def search(query, k=5):
     embedding = model.encode(query)
     results = collection.query(
         query_embeddings=[embedding],
@@ -79,6 +92,8 @@ class ChatResponse(BaseModel):
     answer: str
     sources: List[dict]
     llm_model: str
+    toxicity_input: dict
+    toxicity_output: Optional[Dict] = None
 
 class HealthResponse(BaseModel):
     status: str
@@ -97,14 +112,43 @@ class SearchResponse(BaseModel):
     query: str
     total_matches: int
     matches: List[Match]
+    toxicity_input: dict
+    toxicity_output: Optional[Dict] = None
+    message: Optional[str] = None
 
 # Routes
 @app.post('/chat', response_model=ChatResponse)
 def chat(req: ChatRequest) -> ChatResponse:
+    # Guardrail on input
+    proceed_in, label_in, score_in, safe_resp_in = guard_input(req.query)
+    if not proceed_in:
+        return ChatResponse(
+            query=req.query,
+            answer=safe_resp_in,
+            sources=[],
+            llm_model="guardrail",
+            toxicity_input={"label": label_in, "score": score_in},
+            toxicity_output=None
+        )
+
     try:
         results = search(req.query, k=req.k)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Semantic search failed: {e}")
+
+    # Fallback: if no chunks are retrieved, return default response
+    docs = results.get('documents', [[]])[0]
+    metas = results.get('metadatas', [[]])[0]
+    if not docs or len(docs) == 0:
+        fallback_msg = "Sorry, I could not find any relevant information for your question."
+        return ChatResponse(
+            query=req.query,
+            answer=fallback_msg,
+            sources=[],
+            llm_model="none",
+            toxicity_input={"label": label_in, "score": score_in},
+            toxicity_output=None
+        )
 
     prompt = build_prompt(req.query, results)
 
@@ -113,8 +157,18 @@ def chat(req: ChatRequest) -> ChatResponse:
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"LLM call failed: {e}")
 
-    metas = results.get('metadatas', [[]])[0]
-    docs = results.get('documents', [[]])[0]
+    # Guardrail on output
+    proceed_out, label_out, score_out, safe_resp_out = guard_output(gen.get('response', ''))
+    if not proceed_out:
+        return ChatResponse(
+            query=req.query,
+            answer=safe_resp_out,
+            sources=[],
+            llm_model=gen.get('llm_model', 'gemma-3-4b-it'),
+            toxicity_input={"label": label_in, "score": score_in},
+            toxicity_output={"label": label_out, "score": score_out}
+        )
+
     sources = []
     for doc, meta in zip(docs, metas):
         sources.append({
@@ -128,7 +182,9 @@ def chat(req: ChatRequest) -> ChatResponse:
         query=req.query,
         answer=gen.get('response', ''),
         sources=sources,
-        llm_model=gen.get('llm_model', 'gemma-3-4b-it')
+        llm_model=gen.get('llm_model', 'gemma-3-4b-it'),
+        toxicity_input={"label": label_in, "score": score_in},
+        toxicity_output={"label": label_out, "score": score_out}
     )
 
 @app.get("/health", response_model=HealthResponse, tags=["Health"])
@@ -141,6 +197,18 @@ def ready() -> Any:
 
 @app.post("/search", response_model=SearchResponse)
 def semantic_search_endpoint(req: SearchRequest) -> SearchResponse:
+    # Guardrail on input
+    proceed_in, label_in, score_in, safe_resp_in = guard_input(req.query)
+    if not proceed_in:
+        return SearchResponse(
+            query=req.query,
+            total_matches=0,
+            matches=[],
+            toxicity_input={"label": label_in, "score": score_in},
+            toxicity_output=None,
+            message=safe_resp_in
+        )
+
     try:
         results = search(req.query, k=req.k)
     except Exception as e:
@@ -159,10 +227,24 @@ def semantic_search_endpoint(req: SearchRequest) -> SearchResponse:
         )
         matches.append(match)
 
+    # Guardrail on output (concatenate all docs)
+    output_text = " ".join([m.markdown for m in matches])
+    proceed_out, label_out, score_out, safe_resp_out = guard_output(output_text)
+    if not proceed_out:
+        return SearchResponse(
+            query=req.query,
+            total_matches=0,
+            matches=[],
+            toxicity_input={"label": label_in, "score": score_in},
+            toxicity_output={"label": label_out, "score": score_out}
+        )
+
     return SearchResponse(
         query=req.query,
         total_matches=len(matches),
-        matches=matches
+        matches=matches,
+        toxicity_input={"label": label_in, "score": score_in},
+        toxicity_output={"label": label_out, "score": score_out}
     )
 
 def build_prompt(user_query: str, results: dict) -> str:

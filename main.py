@@ -1,7 +1,8 @@
 
 from fastapi import FastAPI, Request, HTTPException
 from pydantic import BaseModel
-from semantic_chatbot import answer_query, chunk_markdown_file
+# from semantic_chatbot import answer_query, chunk_markdown_file
+from chatbot_service.consolidated_chatbot import answer_query, chunk_markdown_file
 from fastapi import APIRouter
 
 # Import and mount semantic-search-only router
